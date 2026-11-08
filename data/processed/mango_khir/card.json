@@ -1,0 +1,28 @@
+{
+ "built_at": "2026-11-08T08:25:05+0000",
+ "class_counts": {
+  "OverRipe": 21,
+  "Ripe": 43,
+  "UnRipe": 911
+ },
+ "classes": [
+  "UnRipe",
+  "Ripe",
+  "OverRipe"
+ ],
+ "dataset": "mango_khir",
+ "group_key": "filename-group",
+ "group_leak_count": 0,
+ "meta_sha256": "689a5df23071e7239e3dceab22c2f2ca44c7d8af990b8b55a912d707d8a359df",
+ "n_corrupt_members": 0,
+ "n_groups": 487,
+ "n_images": 975,
+ "official_split": false,
+ "offscale": [],
+ "source": "Kaggle srabon00/mango-ripening-stage-classification (Khirshapat, 975 imgs, 911/43/21)",
+ "split_counts": {
+  "test": 146,
+  "train": 683,
+  "val": 146
+ }
+}

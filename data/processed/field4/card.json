@@ -1,0 +1,27 @@
+{
+ "built_at": "2026-11-08T03:22:46+0000",
+ "class_counts": {
+  "Raw_Banana": 1249,
+  "Raw_Mango": 1250,
+  "Ripe_Banana": 1250,
+  "Ripe_Mango": 1250
+ },
+ "classes": [
+  "Raw_Banana",
+  "Ripe_Banana",
+  "Raw_Mango",
+  "Ripe_Mango"
+ ],
+ "dataset": "field4",
+ "group_leak_count": 0,
+ "meta_sha256": "c8322676df3dec30dac1c11f5a632dfcf05becc3cf1a16283f1938d462d6a6e3",
+ "n_groups": 4999,
+ "n_images": 4999,
+ "official_split": true,
+ "offscale": [],
+ "source": "HF darthraider/fruit-ripeness-detection-dataset (Apache-2.0; Mendeley y3649cmgg6)",
+ "split_counts": {
+  "test": 1000,
+  "train": 3999
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "built_at": "2026-11-08T03:44:25+0000",
+ "class_counts": {
+  "overripe": 2691,
+  "ripe": 4015,
+  "rotten": 4593,
+  "unripe": 2179
+ },
+ "classes": [
+  "unripe",
+  "ripe",
+  "overripe",
+  "rotten"
+ ],
+ "dataset": "banana4",
+ "group_leak_count": 0,
+ "meta_sha256": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+ "n_corrupt_members": 0,
+ "n_groups": 13478,
+ "n_images": 13478,
+ "official_split": true,
+ "offscale": [
+  "rotten"
+ ],
+ "source": "HF Sapek007/banana-ripeness (CC BY 4.0, Roboflow v6)",
+ "split_counts": {
+  "test": 562,
+  "train": 11793,
+  "val": 1123
+ }
+}

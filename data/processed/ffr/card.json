@@ -1,0 +1,33 @@
+{
+ "built_at": "2026-11-08T08:55:56+0000",
+ "class_counts": {
+  "Fresh_Apple": 600,
+  "Fresh_Banana": 600,
+  "Fresh_Orange": 600,
+  "Rotten_Apple": 600,
+  "Rotten_Banana": 600,
+  "Rotten_Orange": 600
+ },
+ "classes": [
+  "Fresh_Apple",
+  "Fresh_Banana",
+  "Fresh_Orange",
+  "Rotten_Apple",
+  "Rotten_Banana",
+  "Rotten_Orange"
+ ],
+ "dataset": "ffr",
+ "group_key": "content-hash",
+ "group_leak_count": 0,
+ "meta_sha256": "3c866afcd6c8102e8a274c8123b639ee2613d9a0c8fc24c4bc7ad6858cdf40c0",
+ "n_corrupt_members": 0,
+ "n_groups": 3600,
+ "n_images": 3600,
+ "official_split": true,
+ "offscale": [],
+ "source": "Kaggle sriramr/fruits-fresh-and-rotten-for-classification (curated subset)",
+ "split_counts": {
+  "test": 1800,
+  "train": 1800
+ }
+}

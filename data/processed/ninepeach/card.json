@@ -1,0 +1,45 @@
+{
+ "annotation_format": "Pascal VOC XML (the record also ships YOLO txt)",
+ "annotations_without_image": 0,
+ "built_at": "2026-11-08T11:15:34+0000",
+ "class_counts": {
+  "immature": 1618,
+  "mature": 1168,
+  "semi-mature": 707
+ },
+ "class_name_source": "XML <object><name>; ripeness order as shipped",
+ "class_order": [
+  "immature",
+  "semi-mature",
+  "mature"
+ ],
+ "classes": [
+  "immature",
+  "semi-mature",
+  "mature"
+ ],
+ "dataset": "ninepeach",
+ "dropped_small_boxes": 0,
+ "dropped_unknown_or_bad_boxes": 0,
+ "duplicate_basename_conflicts": [],
+ "duplicate_basenames": 0,
+ "exif_transposed": 1245,
+ "group_leak_count": 0,
+ "meta_sha256": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+ "n_boxes_in_annotations": 3493,
+ "n_groups": 1245,
+ "n_images": 3493,
+ "n_source_images_annotated": 1245,
+ "n_source_images_used": 1245,
+ "official_split": false,
+ "offscale": [],
+ "plan_claim_vs_archive": "plan v2.0 row 1 claims '3,849 images, 9 cultivars, 3 grades' and an '8 cultivars known + 1 held out' arm. The figshare record (v1 and v2, same 8,838,332,680-byte zip) and the archive itself state 1,245 images, 3,493 boxes, 3 stages, and contain NO cultivar field or folder. Cultivar-level P2 is therefore not buildable from this source; it is recorded as unavailable rather than approximated.",
+ "source": "figshare 27125373 Peach Maturity Dataset (CC BY 4.0, doi 10.6084/m9.figshare.27125373)",
+ "split_counts": {
+  "test": 523,
+  "train": 2446,
+  "val": 524
+ },
+ "unit": "annotated peach instance (bbox crop), NOT image",
+ "xml_size_mismatch": 0
+}

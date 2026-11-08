@@ -1,0 +1,34 @@
+{
+ "built_at": "2026-11-08T10:22:47+0000",
+ "class_counts": {
+  "grade1": 978,
+  "grade2": 3603,
+  "grade3": 306,
+  "grade4": 62,
+  "grade5": 94
+ },
+ "classes": [
+  "grade1",
+  "grade2",
+  "grade3",
+  "grade4",
+  "grade5"
+ ],
+ "dataset": "raspgrade",
+ "dropped_small_polygons": 0,
+ "group_leak_count": 0,
+ "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+ "n_groups": 200,
+ "n_images": 5043,
+ "n_source_images": 200,
+ "note": "class 0 (bunch region) excluded; splits are group-aware over source images",
+ "official_split": false,
+ "offscale": [],
+ "source": "HF FBK-TeV/RaspGrade (CC BY-NC-4.0)",
+ "split_counts": {
+  "test": 732,
+  "train": 3556,
+  "val": 755
+ },
+ "unit": "berry instance (polygon crop), NOT image"
+}

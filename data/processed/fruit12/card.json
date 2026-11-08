@@ -1,0 +1,49 @@
+{
+ "built_at": "2026-11-08T03:36:29+0000",
+ "class_counts": {
+  "Apple_Overripe": 361,
+  "Apple_Ripe": 670,
+  "Apple_Rotten": 321,
+  "Apple_Unripe": 342,
+  "Banana_Overripe": 304,
+  "Banana_Ripe": 3405,
+  "Banana_Rotten": 343,
+  "Banana_Unripe": 1425,
+  "Mango_Overripe": 269,
+  "Mango_Ripe": 280,
+  "Mango_Rotten": 198,
+  "Mango_Unripe": 338
+ },
+ "classes": [
+  "Apple_Overripe",
+  "Apple_Ripe",
+  "Apple_Rotten",
+  "Apple_Unripe",
+  "Banana_Overripe",
+  "Banana_Ripe",
+  "Banana_Rotten",
+  "Banana_Unripe",
+  "Mango_Overripe",
+  "Mango_Ripe",
+  "Mango_Rotten",
+  "Mango_Unripe"
+ ],
+ "dataset": "fruit12",
+ "group_leak_count": 0,
+ "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+ "n_groups": 3591,
+ "n_images": 8256,
+ "official_split": false,
+ "offscale": [
+  "Apple_Rotten",
+  "Banana_Rotten",
+  "Mango_Rotten"
+ ],
+ "source": "HF Carlosmg23/fruit-ripeness-12clases (CC BY 4.0)",
+ "split_counts": {
+  "test": 1315,
+  "train": 5754,
+  "val": 1187
+ },
+ "split_was_regrouped": true
+}

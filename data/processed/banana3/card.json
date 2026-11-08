@@ -1,0 +1,26 @@
+{
+ "built_at": "2026-11-08T03:12:31+0000",
+ "class_counts": {
+  "overripe": 435,
+  "ripe": 344,
+  "underripe": 407
+ },
+ "classes": [
+  "underripe",
+  "ripe",
+  "overripe"
+ ],
+ "dataset": "banana3",
+ "group_leak_count": 0,
+ "meta_sha256": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+ "n_groups": 1181,
+ "n_images": 1186,
+ "official_split": false,
+ "offscale": [],
+ "source": "HF TCleo/3-banana-maturity (GPL-3.0)",
+ "split_counts": {
+  "test": 178,
+  "train": 830,
+  "val": 178
+ }
+}
