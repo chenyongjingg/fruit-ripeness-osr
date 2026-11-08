@@ -1,0 +1,5 @@
+protocol,family,n_cells,delta_pp_mean,pct_cells_positive
+P1_out_of_grade,dist,42.0,0.717769980139145,52.976190476190474
+P1_out_of_grade,prob,42.0,0.8273748576682048,36.904761904761905
+P2_unseen_interior,dist,54.0,-1.013938549804951,48.148148148148145
+P2_unseen_interior,prob,54.0,-6.702840992751695,36.574074074074076

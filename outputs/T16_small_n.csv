@@ -1,0 +1,5 @@
+arm,view,protocol,unknown,shot,n_known,n_unknown,n_runs,auroc_mean,auroc_min,auroc_max
+P1_out_of_grade,raspgrade,P1_out_of_grade,grade5,5.0,720.0,12.0,24.0,0.5369068287037037,0.4050925925925926,0.6633101851851853
+P1_out_of_grade,raspgrade,P1_out_of_grade,grade5,,720.0,12.0,24.0,0.4926793981481481,0.34375,0.6114583333333333
+P2_unseen_interior,mango_khir,P2_unseen_interior,UnRipe,5.0,10.0,136.0,24.0,0.7168504901960784,0.5904411764705882,0.8698529411764706
+P2_unseen_interior,mango_khir,P2_unseen_interior,UnRipe,,10.0,136.0,24.0,0.7110294117647058,0.6338235294117648,0.7955882352941176

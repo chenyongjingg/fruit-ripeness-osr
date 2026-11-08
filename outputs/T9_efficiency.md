@@ -1,0 +1,12 @@
+| kind      | name              | timm_id                          |           params |   latency_ms_b1 |   peak_mem_mb_b32 | gpu                     | note                                       |
+|:----------|:------------------|:---------------------------------|-----------------:|----------------:|------------------:|:------------------------|:-------------------------------------------|
+| encoder   | dinov2_s          | vit_small_patch14_dinov2.lvd142m |      2.16288e+07 |            4.87 |             254.1 | NVIDIA GeForce RTX 4090 | nan                                        |
+| encoder   | dinov2_b          | vit_base_patch14_dinov2.lvd142m  |      8.57249e+07 |            4.96 |             643.2 | NVIDIA GeForce RTX 4090 | nan                                        |
+| encoder   | clip_b            | vit_base_patch16_clip_224.openai |      8.57994e+07 |            4.43 |             576   | NVIDIA GeForce RTX 4090 | nan                                        |
+| encoder   | resnet50          | resnet50.a1_in1k                 |      2.3508e+07  |            5.21 |             435.5 | NVIDIA GeForce RTX 4090 | nan                                        |
+| head      | linear_probe      |                                  |   1155           |          nan    |             nan   | NVIDIA GeForce RTX 4090 | nan                                        |
+| head      | prototype         |                                  |      0           |          nan    |             nan   | NVIDIA GeForce RTX 4090 | nan                                        |
+| head      | lora_r8           |                                  | 228960           |          nan    |             nan   | NVIDIA GeForce RTX 4090 | nan                                        |
+| train_mem | finetune_resnet50 |                                  |    nan           |          nan    |            1645.8 | NVIDIA GeForce RTX 4090 | one training step, batch 16 (repo default) |
+| train_mem | lora_dinov2_s     |                                  |    nan           |          nan    |             965.1 | NVIDIA GeForce RTX 4090 | one training step, batch 16 (repo default) |
+| head      | finetune_resnet50 |                                  |      2.3508e+07  |          nan    |             nan   | NVIDIA GeForce RTX 4090 | nan                                        |

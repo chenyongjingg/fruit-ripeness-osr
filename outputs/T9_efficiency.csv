@@ -1,0 +1,11 @@
+kind,name,timm_id,params,latency_ms_b1,peak_mem_mb_b32,gpu,note
+encoder,dinov2_s,vit_small_patch14_dinov2.lvd142m,21628800.0,4.87,254.1,NVIDIA GeForce RTX 4090,
+encoder,dinov2_b,vit_base_patch14_dinov2.lvd142m,85724928.0,4.96,643.2,NVIDIA GeForce RTX 4090,
+encoder,clip_b,vit_base_patch16_clip_224.openai,85799424.0,4.43,576.0,NVIDIA GeForce RTX 4090,
+encoder,resnet50,resnet50.a1_in1k,23508032.0,5.21,435.5,NVIDIA GeForce RTX 4090,
+head,linear_probe,,1155.0,,,NVIDIA GeForce RTX 4090,
+head,prototype,,0.0,,,NVIDIA GeForce RTX 4090,
+head,lora_r8,,228960.0,,,NVIDIA GeForce RTX 4090,
+train_mem,finetune_resnet50,,,,1645.8,NVIDIA GeForce RTX 4090,"one training step, batch 16 (repo default)"
+train_mem,lora_dinov2_s,,,,965.1,NVIDIA GeForce RTX 4090,"one training step, batch 16 (repo default)"
+head,finetune_resnet50,,23508032.0,,,NVIDIA GeForce RTX 4090,

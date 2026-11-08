@@ -1,0 +1,26 @@
+| exp              | view           | encoder                | acc             | macro_f1        | off_by_one      | unparsed_rate   | n_test            | test_ids_sha256   |   n_runs |
+|:-----------------|:---------------|:-----------------------|:----------------|:----------------|:----------------|:----------------|:------------------|:------------------|---------:|
+| B1_clip_zeroshot | banana3        | clip-vit-large-patch14 | 0.3989 ± 0.0000 | 0.2767 ± 0.0000 | 0.2978 ± 0.0000 | NA              | 178.0000 ± 0.0000 | d19e7959b3742cdc  |        1 |
+| B1_clip_zeroshot | banana4        | clip-vit-large-patch14 | 0.6472 ± 0.0000 | 0.6043 ± 0.0000 | 0.3528 ± 0.0000 | NA              | 377.0000 ± 0.0000 | 9ea1b14112408081  |        1 |
+| B1_clip_zeroshot | field4_banana  | clip-vit-large-patch14 | 0.3875 ± 0.0000 | 0.3458 ± 0.0000 | 0.6125 ± 0.0000 | NA              | 400.0000 ± 0.0000 | 2e9d7b7ff2b398a0  |        1 |
+| B1_clip_zeroshot | field4_mango   | clip-vit-large-patch14 | 0.3325 ± 0.0000 | 0.3303 ± 0.0000 | 0.6675 ± 0.0000 | NA              | 400.0000 ± 0.0000 | fe7deb0522736dac  |        1 |
+| B1_clip_zeroshot | fruit12_apple  | clip-vit-large-patch14 | 0.6085 ± 0.0000 | 0.6128 ± 0.0000 | 0.3349 ± 0.0000 | NA              | 212.0000 ± 0.0000 | afa277c8c152e9a9  |        1 |
+| B1_clip_zeroshot | fruit12_banana | clip-vit-large-patch14 | 0.3163 ± 0.0000 | 0.2989 ± 0.0000 | 0.4345 ± 0.0000 | NA              | 313.0000 ± 0.0000 | ad6fc465eb2f6954  |        1 |
+| B1_clip_zeroshot | fruit12_mango  | clip-vit-large-patch14 | 0.6449 ± 0.0000 | 0.5877 ± 0.0000 | 0.2826 ± 0.0000 | NA              | 138.0000 ± 0.0000 | 6104495893c0fa40  |        1 |
+| B1_clip_zeroshot | mango_khir     | clip-vit-large-patch14 | 0.9384 ± 0.0000 | 0.3967 ± 0.0000 | 0.0479 ± 0.0000 | NA              | 146.0000 ± 0.0000 | fba88d573ce5f762  |        1 |
+| B1_clip_zeroshot | ninepeach      | clip-vit-large-patch14 | 0.2902 ± 0.0000 | 0.1500 ± 0.0000 | 0.7098 ± 0.0000 | NA              | 379.0000 ± 0.0000 | 8875dd6b7fee6ace  |        1 |
+| B1_clip_zeroshot | raspgrade      | clip-vit-large-patch14 | 0.2036 ± 0.0000 | 0.1075 ± 0.0000 | 0.4887 ± 0.0000 | NA              | 221.0000 ± 0.0000 | 50bed6a89c5f6610  |        1 |
+| B2_qwen_5shot    | banana3        | Qwen2-VL-7B-Instruct   | 0.7667 ± 0.0000 | 0.7593 ± 0.0000 | 0.2250 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | d6682e82ae7a8066  |        1 |
+| B2_qwen_5shot    | banana4        | Qwen2-VL-7B-Instruct   | 0.9417 ± 0.0000 | 0.9412 ± 0.0000 | 0.0583 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 88c2380550adcc76  |        1 |
+| B2_qwen_5shot    | field4_banana  | Qwen2-VL-7B-Instruct   | 0.9917 ± 0.0000 | 0.9917 ± 0.0000 | 0.0083 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | daa56ffff1bb428d  |        1 |
+| B2_qwen_5shot    | field4_mango   | Qwen2-VL-7B-Instruct   | 1.0000 ± 0.0000 | 1.0000 ± 0.0000 | 0.0000 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 88c057d56eb7a0cf  |        1 |
+| B2_qwen_5shot    | fruit12_apple  | Qwen2-VL-7B-Instruct   | 0.6333 ± 0.0000 | 0.5874 ± 0.0000 | 0.2833 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 676a1335e3dfa7fb  |        1 |
+| B2_qwen_5shot    | fruit12_banana | Qwen2-VL-7B-Instruct   | 0.4917 ± 0.0000 | 0.4364 ± 0.0000 | 0.2167 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 1cac724512211017  |        1 |
+| B2_qwen_5shot    | fruit12_mango  | Qwen2-VL-7B-Instruct   | 0.7500 ± 0.0000 | 0.7520 ± 0.0000 | 0.1333 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 88440929d0c55470  |        1 |
+| B2_qwen_zeroshot | banana3        | Qwen2-VL-7B-Instruct   | 0.6000 ± 0.0000 | 0.5696 ± 0.0000 | 0.3250 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | d6682e82ae7a8066  |        1 |
+| B2_qwen_zeroshot | banana4        | Qwen2-VL-7B-Instruct   | 0.9250 ± 0.0000 | 0.9240 ± 0.0000 | 0.0750 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 88c2380550adcc76  |        1 |
+| B2_qwen_zeroshot | field4_banana  | Qwen2-VL-7B-Instruct   | 0.9833 ± 0.0000 | 0.9833 ± 0.0000 | 0.0167 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | daa56ffff1bb428d  |        1 |
+| B2_qwen_zeroshot | field4_mango   | Qwen2-VL-7B-Instruct   | 0.7750 ± 0.0000 | 0.7630 ± 0.0000 | 0.2250 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 88c057d56eb7a0cf  |        1 |
+| B2_qwen_zeroshot | fruit12_apple  | Qwen2-VL-7B-Instruct   | 0.5833 ± 0.0000 | 0.5422 ± 0.0000 | 0.3917 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 676a1335e3dfa7fb  |        1 |
+| B2_qwen_zeroshot | fruit12_banana | Qwen2-VL-7B-Instruct   | 0.5333 ± 0.0000 | 0.4729 ± 0.0000 | 0.1917 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 1cac724512211017  |        1 |
+| B2_qwen_zeroshot | fruit12_mango  | Qwen2-VL-7B-Instruct   | 0.7917 ± 0.0000 | 0.7707 ± 0.0000 | 0.1250 ± 0.0000 | 0.0000 ± 0.0000 | 120.0000 ± 0.0000 | 88440929d0c55470  |        1 |

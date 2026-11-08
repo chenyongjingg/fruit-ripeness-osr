@@ -1,0 +1,14 @@
+FAILURES: 0
+checks: 12
+corn: proba rows sum to 1: PASS
+corn: proba non-negative: PASS
+corn: P(K-1) == prod(S): PASS
+corn: P(0) == 1 - S_0: PASS
+corn: conditional tasks calibrated to their subsets: PASS
+corn: separated grades -> accuracy 1.0: PASS
+corn: shuffled labels do not reproduce grades: PASS
+corn: prediction index non-decreasing in grade: PASS
+corn: make_head rejects unknown head names: PASS
+mahal: precision reused, not refitted: PASS
+mahal: fast form agrees with the quadratic form (rel < 1e-5): PASS
+mahal: far points score lower than support points: PASS

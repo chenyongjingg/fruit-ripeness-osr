@@ -1,0 +1,17 @@
+view,encoder,variant,protocol,unknown,score,shot,seed,known_acc,majority_share,collapsed_to_single_class,n_known
+banana3,resnet50,cls,P1_out_of_grade,overripe,mahalanobis,5.0,0,0.5446428571428571,0.5446428571428571,False,112
+banana3,resnet50,cls,P1_out_of_grade,overripe,msp,5.0,0,0.5446428571428571,0.5446428571428571,False,112
+banana3,resnet50,cls,P1_out_of_grade,overripe,energy,5.0,0,0.5446428571428571,0.5446428571428571,False,112
+banana3,resnet50,cls,P1_out_of_grade,overripe,knn,5.0,0,0.5446428571428571,0.5446428571428571,False,112
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,energy,,0,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,msp,,2,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,msp,,0,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,energy,,2,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,energy,,1,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,knn,,2,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,knn,,0,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,mahalanobis,,0,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,mahalanobis,,2,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,msp,,1,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,knn,,1,0.8,0.8,True,10
+mango_khir,dinov2_s,cls,P2_unseen_interior,UnRipe,mahalanobis,,1,0.8,0.8,True,10
