@@ -1,0 +1,61 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "ffr",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "energy",
+  "seed": 0,
+  "shot": null,
+  "unknown": [
+   "Rotten_Apple",
+   "Rotten_Banana",
+   "Rotten_Orange"
+  ],
+  "variant": "cls",
+  "view": "ffr"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T08:57:09",
+ "metrics": {
+  "auroc": 0.902858024691358,
+  "ccr_at_fpr5": 0.46111111111111114,
+  "fpr95": 0.34555555555555556,
+  "known_acc": 0.9922222222222222,
+  "n_known": 900,
+  "n_known_test": 900,
+  "n_support": 900,
+  "n_unknown": 900,
+  "n_unknown_test": 900,
+  "oscr": 0.8997555555555556,
+  "rejection_rate_per_class": {
+   "Fresh_Apple": 0.06333333333333334,
+   "Fresh_Banana": 0.013333333333333334,
+   "Fresh_Orange": 0.07333333333333333
+  },
+  "support_ids_sha256": "a199e60c1f645816d346833cd0925dcf7fc2c4c59076511fa150b57de951b262",
+  "threshold_fpr5": 1.681390305002029,
+  "tpr_at_fpr95": 0.95,
+  "unknown_mix": {
+   "Rotten_Apple": 300,
+   "Rotten_Banana": 300,
+   "Rotten_Orange": 300
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "3c866afcd6c8102e8a274c8123b639ee2613d9a0c8fc24c4bc7ad6858cdf40c0",
+  "meta_sha256_live": "3c866afcd6c8102e8a274c8123b639ee2613d9a0c8fc24c4bc7ad6858cdf40c0",
+  "ordinal": [
+   "Fresh_Apple",
+   "Fresh_Banana",
+   "Fresh_Orange"
+  ],
+  "seal_source": "derived",
+  "view": "ffr"
+ }
+}

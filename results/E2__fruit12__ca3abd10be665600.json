@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "msp",
+  "seed": 0,
+  "shot": null,
+  "unknown": [
+   "Mango_Unripe"
+  ],
+  "variant": "cls",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:32:06",
+ "metrics": {
+  "auroc": 0.5661363636363637,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.8863636363636364,
+   "classes_without_threshold": [],
+   "fpr": 0.8,
+   "known_accept_rate": 0.8863636363636364,
+   "n_calib": 76,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Mango_Overripe": 0.06976744186046512,
+    "Mango_Ripe": 0.15555555555555556
+   },
+   "rejection_spread_after": 0.04289405684754522,
+   "rejection_spread_before": 0.012661498708010335,
+   "tau": {
+    "Mango_Overripe": 0.737176,
+    "Mango_Ripe": 0.879514
+   }
+  },
+  "ccr_at_fpr5": 0.125,
+  "fpr95": 0.84,
+  "known_acc": 0.9772727272727273,
+  "n_known": 88,
+  "n_known_test": 88,
+  "n_support": 385,
+  "n_unknown": 50,
+  "n_unknown_test": 50,
+  "oscr": 0.5636363636363637,
+  "rejection_rate_per_class": {
+   "Mango_Overripe": 0.06976744186046512,
+   "Mango_Ripe": 0.044444444444444446
+  },
+  "support_ids_sha256": "c5fb8364c7ff6f5f52caf71be139ec2d542027bd6300f332365e8e8bb88764a1",
+  "threshold_fpr5": 0.7783569591682243,
+  "tpr_at_fpr95": 0.9545454545454546,
+  "unknown_mix": {
+   "Mango_Unripe": 50
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

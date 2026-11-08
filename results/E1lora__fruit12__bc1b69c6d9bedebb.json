@@ -1,0 +1,60 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "alpha": 16,
+  "control": "none",
+  "dataset": "fruit12",
+  "encoder": "dinov2_s_lora",
+  "epochs": 30,
+  "exp": "E1lora",
+  "head": "lora",
+  "lr": 0.001,
+  "rank": 8,
+  "seed": 2,
+  "shot": 10,
+  "variant": "pixel",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T05:29:05",
+ "metrics": {
+  "acc": 0.9057971014492754,
+  "macro_f1": 0.9066604936355706,
+  "n": 138,
+  "n_support": 30,
+  "n_test": 138,
+  "n_total_params": 21858915,
+  "n_trainable_params": 228960,
+  "note": "LoRA (r=8, alpha=16) on qkv+proj of DINOv2-S; backbone frozen; training-time crop/flip augmentation on, so this arm is if anything advantaged relative to the deterministic-crop frozen-feature arms",
+  "off_by_one_rate": 0.07246376811594203,
+  "ordinal_mae": 0.11594202898550725,
+  "per_class_recall": {
+   "Mango_Overripe": 0.9534883720930233,
+   "Mango_Ripe": 0.8666666666666667,
+   "Mango_Unripe": 0.9
+  },
+  "support_ids_sha256": "4c8a9fab73e26f4fc01d1459af0d2f964e812d97406a8e07356355a5b59169af",
+  "support_per_class": {
+   "Mango_Overripe": 10,
+   "Mango_Ripe": 10,
+   "Mango_Unripe": 10
+  },
+  "test_ids_sha256": "6104495893c0fa40fc8e4851cb7c617e4f68b98c7dcd9a0f2c80e27480e383d2",
+  "weighted_f1": 0.9107198650899573
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "mahalanobis",
+  "seed": 1,
+  "shot": null,
+  "unknown": [
+   "Banana_Rotten"
+  ],
+  "variant": "cls",
+  "view": "fruit12_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T04:05:16",
+ "metrics": {
+  "auroc": 0.9022363436392521,
+  "ccr_at_fpr5": 0.6059880239520958,
+  "fpr95": 0.4897959183673469,
+  "known_acc": 0.9425149700598803,
+  "n_known": 835,
+  "n_known_test": 835,
+  "n_support": 3570,
+  "n_unknown": 49,
+  "n_unknown_test": 49,
+  "oscr": 0.861688867163632,
+  "oscr_definition": "CCR counts only correctly classified accepted knowns",
+  "rejection_rate_per_class": {
+   "Banana_Overripe": 0.28888888888888886,
+   "Banana_Ripe": 0.03677758318739054,
+   "Banana_Unripe": 0.0365296803652968
+  },
+  "support_ids_sha256": "69b6e7032be37d24926ea7970657f1c4acccf442eea1a9380ee14717d0ab9a88",
+  "threshold_fpr5": -1053.3001586914063,
+  "tpr_at_fpr95": 0.9508982035928144,
+  "unknown_mix": {
+   "Banana_Rotten": 49
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_banana"
+ }
+}

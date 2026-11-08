@@ -1,0 +1,45 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12->field4",
+  "encoder": "dinov2_s",
+  "exp": "E3",
+  "head": "linear",
+  "seed": 1,
+  "shot": 0,
+  "variant": "cls",
+  "view": "banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T04:12:41",
+ "metrics": {
+  "acc": 0.714,
+  "macro_f1": 0.7013254466542185,
+  "n": 500,
+  "n_support": 3349,
+  "n_test": 500,
+  "off_by_one_rate": 0.286,
+  "ordinal_mae": 0.286,
+  "per_class_recall": {
+   "Banana_Ripe": 0.92,
+   "Banana_Unripe": 0.508
+  },
+  "source": "fruit12",
+  "target": "field4",
+  "weighted_f1": 0.7013254466542185
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Ripe",
+   "Banana_Unripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "banana4",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "energy",
+  "seed": 2,
+  "shot": null,
+  "unknown": [
+   "rotten"
+  ],
+  "variant": "cls",
+  "view": "banana4"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T04:01:18",
+ "metrics": {
+  "auroc": 0.7947236361029464,
+  "ccr_at_fpr5": 0.3395225464190981,
+  "fpr95": 0.7945945945945946,
+  "known_acc": 0.9655172413793104,
+  "n_known": 377,
+  "n_known_test": 377,
+  "n_support": 7773,
+  "n_unknown": 185,
+  "n_unknown_test": 185,
+  "oscr": 0.7838984873467632,
+  "oscr_definition": "CCR counts only correctly classified accepted knowns",
+  "rejection_rate_per_class": {
+   "overripe": 0.05309734513274336,
+   "ripe": 0.032467532467532464,
+   "unripe": 0.07272727272727272
+  },
+  "support_ids_sha256": "0e5afe5d467c3eca7e9adacb73ad95e883104cbfe0fed668a6fce1a3edabd134",
+  "threshold_fpr5": 1.7243387086661097,
+  "tpr_at_fpr95": 0.9522546419098143,
+  "unknown_mix": {
+   "rotten": 185
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "meta_sha256_live": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "ordinal": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana4"
+ }
+}

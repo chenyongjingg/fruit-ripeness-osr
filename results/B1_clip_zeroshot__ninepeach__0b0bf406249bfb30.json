@@ -1,0 +1,56 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "control": "none",
+  "dataset": "ninepeach",
+  "encoder": "clip-vit-large-patch14",
+  "exp": "B1_clip_zeroshot",
+  "head": "zero-shot",
+  "seed": 0,
+  "shot": 0,
+  "variant": "text",
+  "view": "ninepeach"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:45:49",
+ "metrics": {
+  "acc": 0.29023746701846964,
+  "class_prompts": [
+   "immature",
+   "semi-mature",
+   "mature"
+  ],
+  "macro_f1": 0.14996591683708246,
+  "n": 379,
+  "n_test": 379,
+  "off_by_one_rate": 0.7097625329815304,
+  "ordinal_mae": 0.7097625329815304,
+  "per_class_recall": {
+   "immature": 0.0,
+   "mature": 0.0,
+   "semi-mature": 0.990990990990991
+  },
+  "prompt_templates": [
+   "a photo of {art} {c} {fruit}",
+   "a close-up photo of {art} {c} {fruit}",
+   "a {fruit} that is {c}"
+  ],
+  "test_ids_sha256": "8875dd6b7fee6acebb11c319148408df4d1bc18c154303b210aa1a9b4d6dd9fe",
+  "weighted_f1": 0.08997955010224948
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "meta_sha256_live": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "ordinal": [
+   "immature",
+   "semi-mature",
+   "mature"
+  ],
+  "seal_source": "derived",
+  "view": "ninepeach"
+ }
+}

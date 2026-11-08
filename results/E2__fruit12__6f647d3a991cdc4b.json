@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "mahalanobis",
+  "seed": 0,
+  "shot": 5,
+  "unknown": [
+   "Apple_Ripe"
+  ],
+  "variant": "cls",
+  "view": "fruit12_apple"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:20:31",
+ "metrics": {
+  "auroc": 0.5500667556742322,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.6761904761904762,
+   "classes_without_threshold": [],
+   "fpr": 0.8691588785046729,
+   "known_accept_rate": 0.8761904761904762,
+   "n_calib": 101,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Apple_Overripe": 0.12280701754385964,
+    "Apple_Unripe": 0.125
+   },
+   "rejection_spread_after": 0.0010964912280701788,
+   "rejection_spread_before": 0.033442982456140344,
+   "tau": {
+    "Apple_Overripe": -10201.031641,
+    "Apple_Unripe": -12255.631104
+   }
+  },
+  "ccr_at_fpr5": 0.08571428571428572,
+  "fpr95": 1.0,
+  "known_acc": 0.7333333333333333,
+  "n_known": 105,
+  "n_known_test": 105,
+  "n_support": 10,
+  "n_unknown": 107,
+  "n_unknown_test": 107,
+  "oscr": 0.40106809078771694,
+  "rejection_rate_per_class": {
+   "Apple_Overripe": 0.08771929824561403,
+   "Apple_Unripe": 0.020833333333333332
+  },
+  "support_ids_sha256": "07f4a409a7e0a4bd45d5fd306b3d8806612d04e145e18635a313953eb518afae",
+  "threshold_fpr5": -13218.65546875,
+  "tpr_at_fpr95": 0.9523809523809523,
+  "unknown_mix": {
+   "Apple_Ripe": 107
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Apple_Unripe",
+   "Apple_Ripe",
+   "Apple_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_apple"
+ }
+}

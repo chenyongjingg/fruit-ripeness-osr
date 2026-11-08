@@ -1,0 +1,79 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "msp",
+  "seed": 2,
+  "shot": 5,
+  "unknown": [
+   "Banana_Rotten"
+  ],
+  "variant": "cls",
+  "view": "fruit12_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:28:35",
+ "metrics": {
+  "auroc": 0.4422338995478431,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.5305389221556887,
+   "classes_without_threshold": [],
+   "fpr": 0.9183673469387755,
+   "known_accept_rate": 0.9365269461077844,
+   "n_calib": 729,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Banana_Overripe": 0.06666666666666667,
+    "Banana_Ripe": 0.03677758318739054,
+    "Banana_Unripe": 0.1324200913242009
+   },
+   "rejection_spread_after": 0.03995046867771948,
+   "rejection_spread_before": 0.03402018547834979,
+   "tau": {
+    "Banana_Overripe": 0.352199,
+    "Banana_Ripe": 0.352599,
+    "Banana_Unripe": 0.341772
+   }
+  },
+  "ccr_at_fpr5": 0.003592814371257485,
+  "fpr95": 0.9591836734693877,
+  "known_acc": 0.5520958083832336,
+  "n_known": 835,
+  "n_known_test": 835,
+  "n_support": 15,
+  "n_unknown": 49,
+  "n_unknown_test": 49,
+  "oscr": 0.25411218379567396,
+  "rejection_rate_per_class": {
+   "Banana_Overripe": 0.06666666666666667,
+   "Banana_Ripe": 0.02626970227670753,
+   "Banana_Unripe": 0.1095890410958904
+  },
+  "support_ids_sha256": "1c80aa573753962be991f02514fce2de72881d4029e9d216e05b55d66288f787",
+  "threshold_fpr5": 0.34592572614503037,
+  "tpr_at_fpr95": 0.9508982035928144,
+  "unknown_mix": {
+   "Banana_Rotten": 49
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_banana"
+ }
+}

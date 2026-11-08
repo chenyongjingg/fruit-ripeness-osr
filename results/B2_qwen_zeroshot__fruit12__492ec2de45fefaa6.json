@@ -1,0 +1,69 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "control": "none",
+  "dataset": "fruit12",
+  "encoder": "Qwen2-VL-7B-Instruct",
+  "exp": "B2_qwen_zeroshot",
+  "head": "in-context",
+  "seed": 0,
+  "shot": 0,
+  "variant": "4bit",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T06:58:05",
+ "metrics": {
+  "acc": 0.7916666666666666,
+  "macro_f1": 0.770666997785642,
+  "n": 120,
+  "n_test": 120,
+  "off_by_one_rate": 0.125,
+  "ordinal_mae": 0.2916666666666667,
+  "per_class_recall": {
+   "Mango_Overripe": 0.975,
+   "Mango_Ripe": 0.95,
+   "Mango_Unripe": 0.45
+  },
+  "raw_answer_examples": [
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "Overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "Overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "Overripe",
+   "overripe",
+   "overripe"
+  ],
+  "test_ids_sha256": "88440929d0c554709f919a722d7089865eb534e47ab6234bd98bdb1d962b5fb0",
+  "unparsed_rate": 0.0,
+  "weighted_f1": 0.7577674303098032
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

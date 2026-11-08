@@ -1,0 +1,64 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E1ord",
+  "head": "proto",
+  "seed": 1,
+  "shot": 5,
+  "variant": "cls",
+  "view": "fruit12_apple"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:30:15",
+ "metrics": {
+  "acc": 0.5047169811320755,
+  "classes": [
+   "Apple_Unripe",
+   "Apple_Ripe",
+   "Apple_Overripe"
+  ],
+  "confusion": [
+   [
+    27,
+    15,
+    6
+   ],
+   [
+    47,
+    45,
+    15
+   ],
+   [
+    4,
+    18,
+    35
+   ]
+  ],
+  "cost_definition": "adjacent credit .5, skip 0 (plan weights 1:2), macro over ordinal classes",
+  "cost_f1": 0.7313124918278552,
+  "macro_f1": 0.5115089805355292,
+  "n_support": 15,
+  "n_test": 212,
+  "off_by_one_rate": 0.4481132075471698,
+  "ordinal_mae": 0.5424528301886793,
+  "support_ids_sha256": "3d208899d54707da46115413ae22e9f2fbec1d5a0fc866a75ec93cba55c1fe78",
+  "test_ids_sha256": "afa277c8c152e9a90681fdc5afe7a1a3a0636dd5eff073b9f6cdbe62c1279892"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Apple_Unripe",
+   "Apple_Ripe",
+   "Apple_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_apple"
+ }
+}

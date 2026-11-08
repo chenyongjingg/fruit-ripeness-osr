@@ -1,0 +1,55 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "field4",
+  "encoder": "clip_b",
+  "exp": "E1ord",
+  "head": "proto",
+  "seed": 2,
+  "shot": null,
+  "variant": "cls",
+  "view": "field4_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:33:03",
+ "metrics": {
+  "acc": 0.998,
+  "classes": [
+   "Raw_Mango",
+   "Ripe_Mango"
+  ],
+  "confusion": [
+   [
+    249,
+    1
+   ],
+   [
+    0,
+    250
+   ]
+  ],
+  "cost_definition": "adjacent credit .5, skip 0 (plan weights 1:2), macro over ordinal classes",
+  "cost_f1": 0.9990009950129591,
+  "macro_f1": 0.997999991999968,
+  "n_support": 2000,
+  "n_test": 500,
+  "off_by_one_rate": 0.002,
+  "ordinal_mae": 0.002,
+  "support_ids_sha256": "6757f4b9d07ae9f5683afb48e158937faa00e23678b31b3a16b7abfcc28fee07",
+  "test_ids_sha256": "0885227d6700fc6f46dbb8d361e8f77676b05bfd2b99df24dbc9b70046998657"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "c8322676df3dec30dac1c11f5a632dfcf05becc3cf1a16283f1938d462d6a6e3",
+  "meta_sha256_live": "c8322676df3dec30dac1c11f5a632dfcf05becc3cf1a16283f1938d462d6a6e3",
+  "ordinal": [
+   "Raw_Mango",
+   "Ripe_Mango"
+  ],
+  "seal_source": "derived",
+  "view": "field4_mango"
+ }
+}

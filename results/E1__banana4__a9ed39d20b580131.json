@@ -1,0 +1,53 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "control": "none",
+  "dataset": "banana4",
+  "encoder": "dinov2_b",
+  "exp": "E1",
+  "head": "corn",
+  "seed": 0,
+  "shot": 10,
+  "variant": "cls",
+  "view": "banana4"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:31:54",
+ "metrics": {
+  "acc": 0.896551724137931,
+  "macro_f1": 0.8988055209565813,
+  "n": 377,
+  "n_support": 30,
+  "n_test": 377,
+  "off_by_one_rate": 0.10344827586206896,
+  "ordinal_mae": 0.10344827586206896,
+  "per_class_recall": {
+   "overripe": 0.8141592920353983,
+   "ripe": 0.9935064935064936,
+   "unripe": 0.8454545454545455
+  },
+  "support_ids_sha256": "fa98225c073350b5a52c432f0158e59e53ba3b339204a878240ca3666a69b129",
+  "support_per_class": {
+   "overripe": 10,
+   "ripe": 10,
+   "unripe": 10
+  },
+  "test_ids_sha256": "9ea1b14112408081e2fd5efb07653f644e08357906e39358aee43819e125434f",
+  "weighted_f1": 0.9011753208000716
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "meta_sha256_live": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "ordinal": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana4"
+ }
+}

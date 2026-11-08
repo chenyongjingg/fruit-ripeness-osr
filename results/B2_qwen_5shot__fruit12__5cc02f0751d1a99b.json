@@ -1,0 +1,69 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "control": "none",
+  "dataset": "fruit12",
+  "encoder": "Qwen2-VL-7B-Instruct",
+  "exp": "B2_qwen_5shot",
+  "head": "in-context",
+  "seed": 0,
+  "shot": 5,
+  "variant": "4bit",
+  "view": "fruit12_apple"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T06:54:19",
+ "metrics": {
+  "acc": 0.6333333333333333,
+  "macro_f1": 0.58743961352657,
+  "n": 120,
+  "n_test": 120,
+  "off_by_one_rate": 0.2833333333333333,
+  "ordinal_mae": 0.45,
+  "per_class_recall": {
+   "Apple_Overripe": 1.0,
+   "Apple_Ripe": 0.2,
+   "Apple_Unripe": 0.7
+  },
+  "raw_answer_examples": [
+   "Overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "Overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "Overripe",
+   "Overripe",
+   "Overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "Overripe",
+   "Overripe",
+   "overripe"
+  ],
+  "test_ids_sha256": "676a1335e3dfa7fb4c5c3c7b7ff0c026b0092a1ad22c527738a413a2f888baf3",
+  "unparsed_rate": 0.0,
+  "weighted_f1": 0.640927536231884
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Apple_Unripe",
+   "Apple_Ripe",
+   "Apple_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_apple"
+ }
+}

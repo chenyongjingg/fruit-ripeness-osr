@@ -1,0 +1,47 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "raspgrade",
+  "encoder": "clip_b",
+  "exp": "E1ap",
+  "head": "linear",
+  "seed": 3,
+  "shot": 1,
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T12:11:59",
+ "metrics": {
+  "macro_ap": 0.22154195154220763,
+  "n_support": 5,
+  "n_test": 732,
+  "per_class_ap": {
+   "grade1": 0.20226311675894598,
+   "grade2": 0.7563624499010899,
+   "grade3": 0.1039482750749644,
+   "grade4": 0.009077621247239605,
+   "grade5": 0.03605829472879826
+  },
+  "prevalence_macro": 0.2,
+  "support_ids_sha256": "9518ab30d37375f3cc74331c90000f50a97daf222cf549979c78cd18cb65c178",
+  "test_ids_sha256": "75a0c2630e057e534b1f478c45ce090de39547bcfd9db417820eb726d9199d9b"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "seal_source": "derived",
+  "view": "raspgrade"
+ }
+}

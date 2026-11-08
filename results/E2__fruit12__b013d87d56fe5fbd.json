@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "msp",
+  "seed": 1,
+  "shot": null,
+  "unknown": [
+   "Mango_Ripe"
+  ],
+  "variant": "cls",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:33:18",
+ "metrics": {
+  "auroc": 0.6943847072879331,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.8709677419354839,
+   "classes_without_threshold": [],
+   "fpr": 0.9333333333333333,
+   "known_accept_rate": 0.8924731182795699,
+   "n_calib": 91,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Mango_Overripe": 0.13953488372093023,
+    "Mango_Unripe": 0.08
+   },
+   "rejection_spread_after": 0.029767441860465114,
+   "rejection_spread_before": 0.03651162790697674,
+   "tau": {
+    "Mango_Overripe": 0.63711,
+    "Mango_Unripe": 0.640112
+   }
+  },
+  "ccr_at_fpr5": 0.43010752688172044,
+  "fpr95": 0.9555555555555556,
+  "known_acc": 0.9354838709677419,
+  "n_known": 93,
+  "n_known_test": 93,
+  "n_support": 423,
+  "n_unknown": 45,
+  "n_unknown_test": 45,
+  "oscr": 0.6836320191158901,
+  "rejection_rate_per_class": {
+   "Mango_Overripe": 0.09302325581395349,
+   "Mango_Unripe": 0.02
+  },
+  "support_ids_sha256": "7bc94207d853a385478af54ac0e441e38dbd01293e08489f34103709c65c7ba2",
+  "threshold_fpr5": 0.5808739862884172,
+  "tpr_at_fpr95": 0.956989247311828,
+  "unknown_mix": {
+   "Mango_Ripe": 45
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

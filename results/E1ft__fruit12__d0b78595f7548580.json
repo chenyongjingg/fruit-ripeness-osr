@@ -1,0 +1,56 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "control": "none",
+  "dataset": "fruit12",
+  "encoder": "resnet50_ft",
+  "epochs": 30,
+  "exp": "E1ft",
+  "head": "finetune",
+  "lr": 0.0003,
+  "seed": 1,
+  "shot": 5,
+  "variant": "pixel",
+  "view": "fruit12_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T04:21:37",
+ "metrics": {
+  "acc": 0.481437125748503,
+  "macro_f1": 0.4367456726893347,
+  "n": 835,
+  "n_support": 15,
+  "n_test": 835,
+  "note": "end-to-end fine-tuning; augmentation on, so this arm is if anything advantaged",
+  "off_by_one_rate": 0.47784431137724553,
+  "ordinal_mae": 0.5592814371257485,
+  "per_class_recall": {
+   "Banana_Overripe": 0.7333333333333333,
+   "Banana_Ripe": 0.3345008756567426,
+   "Banana_Unripe": 0.8127853881278538
+  },
+  "support_ids_sha256": "31d5b57086f6f0eacabe3417414506d58eacfbd55ff1bd6cf1dd945406573102",
+  "support_per_class": {
+   "Banana_Overripe": 5,
+   "Banana_Ripe": 5,
+   "Banana_Unripe": 5
+  },
+  "test_ids_sha256": "f34a9d076e17514ea3d4699e2b9d6e2956abd425c01cace481fb4136ad605ab3",
+  "weighted_f1": 0.4262715037700954
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_banana"
+ }
+}

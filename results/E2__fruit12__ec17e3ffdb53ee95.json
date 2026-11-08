@@ -1,0 +1,58 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "knn",
+  "seed": 2,
+  "shot": null,
+  "unknown": [
+   "Mango_Rotten"
+  ],
+  "variant": "cls",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T04:11:08",
+ "metrics": {
+  "auroc": 0.5864734299516908,
+  "ccr_at_fpr5": 0.2463768115942029,
+  "fpr95": 0.8666666666666667,
+  "known_acc": 0.9057971014492754,
+  "n_known": 138,
+  "n_known_test": 138,
+  "n_support": 620,
+  "n_unknown": 30,
+  "n_unknown_test": 30,
+  "oscr": 0.5362318840579711,
+  "oscr_definition": "CCR counts only correctly classified accepted knowns",
+  "rejection_rate_per_class": {
+   "Mango_Overripe": 0.06976744186046512,
+   "Mango_Ripe": 0.08888888888888889,
+   "Mango_Unripe": 0.0
+  },
+  "support_ids_sha256": "8b2530b5feca72d44b2f3b436dc3a16c0846701b0b4cde7f696a516630e6d842",
+  "threshold_fpr5": 0.6140360832214355,
+  "tpr_at_fpr95": 0.9565217391304348,
+  "unknown_mix": {
+   "Mango_Rotten": 30
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "raspgrade",
+  "encoder": "resnet50",
+  "exp": "E1ord",
+  "head": "proto",
+  "seed": 0,
+  "shot": 10,
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T12:13:00",
+ "metrics": {
+  "acc": 0.34289617486338797,
+  "classes": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "confusion": [
+   [
+    55,
+    28,
+    22,
+    28,
+    15
+   ],
+   [
+    183,
+    174,
+    29,
+    85,
+    52
+   ],
+   [
+    14,
+    2,
+    16,
+    8,
+    3
+   ],
+   [
+    0,
+    0,
+    1,
+    4,
+    1
+   ],
+   [
+    4,
+    3,
+    2,
+    1,
+    2
+   ]
+  ],
+  "cost_definition": "adjacent credit .5, skip 0 (plan weights 1:2), macro over ordinal classes",
+  "cost_f1": 0.36738764363811904,
+  "macro_f1": 0.22796805626666652,
+  "n_support": 50,
+  "n_test": 732,
+  "off_by_one_rate": 0.34562841530054644,
+  "ordinal_mae": 1.133879781420765,
+  "support_ids_sha256": "93aa9c098a4a3cddfa7582f1b8d040e6bc552ce18120babd52785e998099fc29",
+  "test_ids_sha256": "75a0c2630e057e534b1f478c45ce090de39547bcfd9db417820eb726d9199d9b"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "seal_source": "derived",
+  "view": "raspgrade"
+ }
+}

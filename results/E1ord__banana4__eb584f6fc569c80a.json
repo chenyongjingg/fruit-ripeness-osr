@@ -1,0 +1,64 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "banana4",
+  "encoder": "dinov2_s",
+  "exp": "E1ord",
+  "head": "corn",
+  "seed": 2,
+  "shot": 1,
+  "variant": "cls",
+  "view": "banana4"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:36:38",
+ "metrics": {
+  "acc": 0.5862068965517241,
+  "classes": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "confusion": [
+   [
+    102,
+    4,
+    4
+   ],
+   [
+    88,
+    64,
+    2
+   ],
+   [
+    4,
+    54,
+    55
+   ]
+  ],
+  "cost_definition": "adjacent credit .5, skip 0 (plan weights 1:2), macro over ordinal classes",
+  "cost_f1": 0.7942287519320272,
+  "macro_f1": 0.5890015518556512,
+  "n_support": 3,
+  "n_test": 377,
+  "off_by_one_rate": 0.3925729442970822,
+  "ordinal_mae": 0.4350132625994695,
+  "support_ids_sha256": "c0a3367597413c92145a30ca969dd530828acd2925e05afb2c003b7d943aecd6",
+  "test_ids_sha256": "9ea1b14112408081e2fd5efb07653f644e08357906e39358aee43819e125434f"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "meta_sha256_live": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "ordinal": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana4"
+ }
+}

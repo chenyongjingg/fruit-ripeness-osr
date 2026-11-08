@@ -1,0 +1,43 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E1ap",
+  "head": "linear",
+  "seed": 3,
+  "shot": 10,
+  "variant": "cls",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:19:06",
+ "metrics": {
+  "macro_ap": 0.8706793932773147,
+  "n_support": 30,
+  "n_test": 138,
+  "per_class_ap": {
+   "Mango_Overripe": 0.8827469082619023,
+   "Mango_Ripe": 0.9031991642526279,
+   "Mango_Unripe": 0.8260921073174139
+  },
+  "prevalence_macro": 0.3333333333333333,
+  "support_ids_sha256": "0ca37eeb3c68dcd306394dbd94cce46286bca0bf06dab301361e2a581718d72a",
+  "test_ids_sha256": "6104495893c0fa40fc8e4851cb7c617e4f68b98c7dcd9a0f2c80e27480e383d2"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

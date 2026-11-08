@@ -1,0 +1,57 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "banana3",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "energy",
+  "seed": 2,
+  "shot": null,
+  "unknown": [
+   "ripe"
+  ],
+  "variant": "cls",
+  "view": "banana3"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T03:34:47",
+ "metrics": {
+  "auroc": 0.758067006330091,
+  "ccr_at_fpr5": 0.41732283464566927,
+  "fpr95": 0.8431372549019608,
+  "known_acc": 0.9921259842519685,
+  "n_known": 127,
+  "n_known_test": 127,
+  "n_support": 589,
+  "n_unknown": 51,
+  "n_unknown_test": 51,
+  "oscr": 0.7572950440018528,
+  "oscr_definition": "CCR counts only correctly classified accepted knowns",
+  "rejection_rate_per_class": {
+   "overripe": 0.045454545454545456,
+   "underripe": 0.06557377049180328
+  },
+  "support_ids_sha256": "0c7bdbbb1809bb2b64d744104261fc7bcb1ae433c63f85b65fdd1cbd4af47e77",
+  "threshold_fpr5": 0.816999717691497,
+  "tpr_at_fpr95": 0.952755905511811,
+  "unknown_mix": {
+   "ripe": 51
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "meta_sha256_live": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "ordinal": [
+   "underripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana3"
+ }
+}

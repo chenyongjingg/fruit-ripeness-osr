@@ -1,0 +1,56 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "control": "none",
+  "dataset": "fruit12",
+  "encoder": "clip-vit-large-patch14",
+  "exp": "B1_clip_zeroshot",
+  "head": "zero-shot",
+  "seed": 0,
+  "shot": 0,
+  "variant": "text",
+  "view": "fruit12_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T06:18:24",
+ "metrics": {
+  "acc": 0.31629392971246006,
+  "class_prompts": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "macro_f1": 0.29890609636184856,
+  "n": 313,
+  "n_test": 313,
+  "off_by_one_rate": 0.43450479233226835,
+  "ordinal_mae": 0.9329073482428115,
+  "per_class_recall": {
+   "Banana_Overripe": 0.7555555555555555,
+   "Banana_Ripe": 0.3880597014925373,
+   "Banana_Unripe": 0.09701492537313433
+  },
+  "prompt_templates": [
+   "a photo of {art} {c} {fruit}",
+   "a close-up photo of {art} {c} {fruit}",
+   "a {fruit} that is {c}"
+  ],
+  "test_ids_sha256": "ad6fc465eb2f6954db207f094c3b860e587de908b930bbea43a5be2f87edb3bd",
+  "weighted_f1": 0.2720206489675516
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_banana"
+ }
+}

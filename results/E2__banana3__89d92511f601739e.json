@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "banana3",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P1_out_of_grade",
+  "score": "mahalanobis",
+  "seed": 1,
+  "shot": 5,
+  "unknown": [
+   "overripe"
+  ],
+  "variant": "cls",
+  "view": "banana3"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:07:37",
+ "metrics": {
+  "auroc": 0.8363095238095238,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.7232142857142857,
+   "classes_without_threshold": [],
+   "fpr": 0.8484848484848485,
+   "known_accept_rate": 0.9553571428571429,
+   "n_calib": 113,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "ripe": 0.0392156862745098,
+    "underripe": 0.04918032786885246
+   },
+   "rejection_spread_after": 0.004982320797171327,
+   "rejection_spread_before": 0.0048216007714561235,
+   "tau": {
+    "ripe": -1990.311664,
+    "underripe": -1705.720581
+   }
+  },
+  "ccr_at_fpr5": 0.5178571428571429,
+  "fpr95": 0.9090909090909091,
+  "known_acc": 0.7589285714285714,
+  "n_known": 112,
+  "n_known_test": 112,
+  "n_support": 10,
+  "n_unknown": 66,
+  "n_unknown_test": 66,
+  "oscr": 0.6335227272727273,
+  "rejection_rate_per_class": {
+   "ripe": 0.058823529411764705,
+   "underripe": 0.04918032786885246
+  },
+  "support_ids_sha256": "da7676f375c78af0eb067f7fc234ca8e038a20ddf38defa91985278b9e6c00ed",
+  "threshold_fpr5": -1928.543389892578,
+  "tpr_at_fpr95": 0.9553571428571429,
+  "unknown_mix": {
+   "overripe": 66
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "meta_sha256_live": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "ordinal": [
+   "underripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana3"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "banana4",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "mahalanobis",
+  "seed": 0,
+  "shot": 5,
+  "unknown": [
+   "rotten"
+  ],
+  "variant": "cls",
+  "view": "banana4"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:10:01",
+ "metrics": {
+  "auroc": 0.876794035414725,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.8726790450928382,
+   "classes_without_threshold": [],
+   "fpr": 0.3945945945945946,
+   "known_accept_rate": 0.9389920424403183,
+   "n_calib": 735,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "overripe": 0.07079646017699115,
+    "ripe": 0.06493506493506493,
+    "unripe": 0.045454545454545456
+   },
+   "rejection_spread_after": 0.010832355008197965,
+   "rejection_spread_before": 0.06303190198572664,
+   "tau": {
+    "overripe": -1094.613672,
+    "ripe": -1050.636462,
+    "unripe": -1736.591919
+   }
+  },
+  "ccr_at_fpr5": 0.5384615384615384,
+  "fpr95": 0.7081081081081081,
+  "known_acc": 0.9257294429708223,
+  "n_known": 377,
+  "n_known_test": 377,
+  "n_support": 15,
+  "n_unknown": 185,
+  "n_unknown_test": 185,
+  "oscr": 0.8125170263101298,
+  "rejection_rate_per_class": {
+   "overripe": 0.017699115044247787,
+   "ripe": 0.006493506493506494,
+   "unripe": 0.14545454545454545
+  },
+  "support_ids_sha256": "ff4be83a28dbda5b123582c39c5fc2bf3998afac7b5b73129e908b002d612e0d",
+  "threshold_fpr5": -1385.525439453125,
+  "tpr_at_fpr95": 0.9522546419098143,
+  "unknown_mix": {
+   "rotten": 185
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "meta_sha256_live": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "ordinal": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana4"
+ }
+}

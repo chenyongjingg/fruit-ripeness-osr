@@ -1,0 +1,79 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "knn",
+  "seed": 2,
+  "shot": 5,
+  "unknown": [
+   "Mango_Rotten"
+  ],
+  "variant": "cls",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:34:42",
+ "metrics": {
+  "auroc": 0.5828502415458936,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.6956521739130435,
+   "classes_without_threshold": [],
+   "fpr": 0.8666666666666667,
+   "known_accept_rate": 0.9202898550724637,
+   "n_calib": 129,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Mango_Overripe": 0.06976744186046512,
+    "Mango_Ripe": 0.15555555555555556,
+    "Mango_Unripe": 0.02
+   },
+   "rejection_spread_after": 0.0559878035951401,
+   "rejection_spread_before": 0.028371303332285054,
+   "tau": {
+    "Mango_Overripe": 0.519109,
+    "Mango_Ripe": 0.508371,
+    "Mango_Unripe": 0.447044
+   }
+  },
+  "ccr_at_fpr5": 0.13768115942028986,
+  "fpr95": 0.9666666666666667,
+  "known_acc": 0.7536231884057971,
+  "n_known": 138,
+  "n_known_test": 138,
+  "n_support": 15,
+  "n_unknown": 30,
+  "n_unknown_test": 30,
+  "oscr": 0.42028985507246375,
+  "rejection_rate_per_class": {
+   "Mango_Overripe": 0.046511627906976744,
+   "Mango_Ripe": 0.08888888888888889,
+   "Mango_Unripe": 0.02
+  },
+  "support_ids_sha256": "94f6194640ba857cc86daf3e039fcdbfc1b52a399470e7e77513c81da35b1cc5",
+  "threshold_fpr5": 0.46730995178222656,
+  "tpr_at_fpr95": 0.9565217391304348,
+  "unknown_mix": {
+   "Mango_Rotten": 30
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

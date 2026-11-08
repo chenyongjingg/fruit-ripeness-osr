@@ -1,0 +1,66 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12<-foreign:field4",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "foreign": [
+   "Raw_Mango",
+   "Ripe_Mango"
+  ],
+  "known": [
+   "Apple_Overripe",
+   "Apple_Ripe",
+   "Apple_Unripe"
+  ],
+  "protocol": "P3_foreign",
+  "score": "msp",
+  "seed": 2,
+  "shot": 5,
+  "variant": "cls",
+  "view": "fruit12_apple"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T08:58:49",
+ "metrics": {
+  "auroc": 0.7228207547169812,
+  "ccr_at_fpr5": 0.2783018867924528,
+  "foreign_ds": "field4",
+  "foreign_mix": {
+   "Raw_Mango": 250,
+   "Ripe_Mango": 250
+  },
+  "fpr95": 0.952,
+  "known_acc": 0.5094339622641509,
+  "known_ds": "fruit12",
+  "n_known": 212,
+  "n_known_test": 212,
+  "n_support": 15,
+  "n_unknown": 500,
+  "n_unknown_test": 500,
+  "oscr": 0.4003867924528302,
+  "rejection_rate_per_class": {
+   "Apple_Overripe": 0.14035087719298245,
+   "Apple_Ripe": 0.018691588785046728,
+   "Apple_Unripe": 0.020833333333333332
+  },
+  "support_ids_sha256": "98bb235e1870018949813f4972e7e9bf59a59efedb9fa421016859c0bb528ea7",
+  "threshold_fpr5": 0.3477867366444316,
+  "tpr_at_fpr95": 0.9528301886792453
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": [
+   "Apple_Overripe",
+   "Apple_Ripe",
+   "Apple_Unripe"
+  ],
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": null,
+  "seal_source": "derived",
+  "view": "fruit12_apple"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "raspgrade",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "knn",
+  "seed": 0,
+  "shot": 5,
+  "unknown": [
+   "grade1"
+  ],
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:46:28",
+ "metrics": {
+  "auroc": 0.4831543872639763,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.5393835616438356,
+   "classes_without_threshold": [],
+   "fpr": 0.9121621621621622,
+   "known_accept_rate": 0.8818493150684932,
+   "n_calib": 602,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "grade2": 0.12237093690248566,
+    "grade3": 0.06976744186046512,
+    "grade4": 0.16666666666666666,
+    "grade5": 0.08333333333333333
+   },
+   "rejection_spread_after": 0.03772524973603587,
+   "rejection_spread_before": 0.02483820469745044,
+   "tau": {
+    "grade2": 0.700562,
+    "grade3": 0.646489,
+    "grade4": 0.711967,
+    "grade5": 0.727764
+   }
+  },
+  "ccr_at_fpr5": 0.05821917808219178,
+  "fpr95": 0.9662162162162162,
+  "known_acc": 0.5445205479452054,
+  "n_known": 584,
+  "n_known_test": 584,
+  "n_support": 20,
+  "n_unknown": 148,
+  "n_unknown_test": 148,
+  "oscr": 0.33685440577563863,
+  "rejection_rate_per_class": {
+   "grade2": 0.05736137667304015,
+   "grade3": 0.0,
+   "grade4": 0.0,
+   "grade5": 0.0
+  },
+  "support_ids_sha256": "dbd23ac8bd28a7d1c7a0c6518e5dd3d92659894fb6535ac5cc9f7ad731a33c44",
+  "threshold_fpr5": 0.6523275971412659,
+  "tpr_at_fpr95": 0.9503424657534246,
+  "unknown_mix": {
+   "grade1": 148
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "view": "raspgrade"
+ }
+}

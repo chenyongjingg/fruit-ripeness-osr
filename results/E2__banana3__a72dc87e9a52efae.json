@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "banana3",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "mahalanobis",
+  "seed": 0,
+  "shot": 5,
+  "unknown": [
+   "underripe"
+  ],
+  "variant": "cls",
+  "view": "banana3"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:07:39",
+ "metrics": {
+  "auroc": 0.44374386997337817,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.8547008547008547,
+   "classes_without_threshold": [],
+   "fpr": 0.9672131147540983,
+   "known_accept_rate": 0.9572649572649573,
+   "n_calib": 117,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "overripe": 0.015151515151515152,
+    "ripe": 0.0784313725490196
+   },
+   "rejection_spread_after": 0.03163992869875223,
+   "rejection_spread_before": 0.04144385026737968,
+   "tau": {
+    "overripe": -1503.592163,
+    "ripe": -1608.313208
+   }
+  },
+  "ccr_at_fpr5": 0.03418803418803419,
+  "fpr95": 0.9672131147540983,
+  "known_acc": 0.8632478632478633,
+  "n_known": 117,
+  "n_known_test": 117,
+  "n_support": 10,
+  "n_unknown": 61,
+  "n_unknown_test": 61,
+  "oscr": 0.4200644528513381,
+  "rejection_rate_per_class": {
+   "overripe": 0.015151515151515152,
+   "ripe": 0.09803921568627451
+  },
+  "support_ids_sha256": "9296a90462a2b9a89390b2d830e6a0fcaf308f63c2724f65e00110c5c61b5afe",
+  "threshold_fpr5": -1498.3425537109374,
+  "tpr_at_fpr95": 0.9572649572649573,
+  "unknown_mix": {
+   "underripe": 61
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "meta_sha256_live": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "ordinal": [
+   "underripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana3"
+ }
+}

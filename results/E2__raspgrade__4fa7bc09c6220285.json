@@ -1,0 +1,82 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "raspgrade",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "mahalanobis",
+  "seed": 0,
+  "shot": null,
+  "unknown": [
+   "grade3"
+  ],
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:52:17",
+ "metrics": {
+  "auroc": 0.615350862389037,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.7431059506531205,
+   "classes_without_threshold": [],
+   "fpr": 0.8604651162790697,
+   "known_accept_rate": 0.9390420899854862,
+   "n_calib": 719,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "grade1": 0.04054054054054054,
+    "grade2": 0.06309751434034416,
+    "grade4": 0.16666666666666666,
+    "grade5": 0.16666666666666666
+   },
+   "rejection_spread_after": 0.05797497039529104,
+   "rejection_spread_before": 0.06085637132281461,
+   "tau": {
+    "grade1": -1848.116333,
+    "grade2": -1841.159851,
+    "grade4": -1671.534766,
+    "grade5": -1525.975098
+   }
+  },
+  "ccr_at_fpr5": 0.10304789550072568,
+  "fpr95": 0.8604651162790697,
+  "known_acc": 0.7924528301886793,
+  "n_known": 689,
+  "n_known_test": 689,
+  "n_support": 3329,
+  "n_unknown": 43,
+  "n_unknown_test": 43,
+  "oscr": 0.48418672157153947,
+  "rejection_rate_per_class": {
+   "grade1": 0.04054054054054054,
+   "grade2": 0.0497131931166348,
+   "grade4": 0.16666666666666666,
+   "grade5": 0.16666666666666666
+  },
+  "support_ids_sha256": "4941b4dc3667d38a088980b073e8195aed1e45319166fd02da4ec7037cbebb1c",
+  "threshold_fpr5": -1898.102880859375,
+  "tpr_at_fpr95": 0.9506531204644412,
+  "unknown_mix": {
+   "grade3": 43
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "view": "raspgrade"
+ }
+}

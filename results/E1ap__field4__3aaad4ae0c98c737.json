@@ -1,0 +1,41 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "field4",
+  "encoder": "resnet50",
+  "exp": "E1ap",
+  "head": "proto",
+  "seed": 1,
+  "shot": 10,
+  "variant": "cls",
+  "view": "field4_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:20:21",
+ "metrics": {
+  "macro_ap": 0.9275485377436232,
+  "n_support": 20,
+  "n_test": 500,
+  "per_class_ap": {
+   "Raw_Banana": 0.9336949301942232,
+   "Ripe_Banana": 0.9214021452930233
+  },
+  "prevalence_macro": 0.5,
+  "support_ids_sha256": "b2d1fbc89fde5a9e2b2856fa8659490ee884037860b9b878e75f99515f7a1109",
+  "test_ids_sha256": "8a86e18f6641101bc37d2ad473159ad07cab862b54bf19b122cbe6d755bcc238"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "c8322676df3dec30dac1c11f5a632dfcf05becc3cf1a16283f1938d462d6a6e3",
+  "meta_sha256_live": "c8322676df3dec30dac1c11f5a632dfcf05becc3cf1a16283f1938d462d6a6e3",
+  "ordinal": [
+   "Raw_Banana",
+   "Ripe_Banana"
+  ],
+  "seal_source": "derived",
+  "view": "field4_banana"
+ }
+}

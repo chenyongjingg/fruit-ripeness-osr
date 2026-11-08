@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P1_out_of_grade",
+  "score": "knn",
+  "seed": 1,
+  "shot": 5,
+  "unknown": [
+   "Mango_Overripe"
+  ],
+  "variant": "cls",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:32:06",
+ "metrics": {
+  "auroc": 0.896450428396573,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.6,
+   "classes_without_threshold": [],
+   "fpr": 0.5813953488372093,
+   "known_accept_rate": 0.968421052631579,
+   "n_calib": 91,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Mango_Ripe": 0.044444444444444446,
+    "Mango_Unripe": 0.02
+   },
+   "rejection_spread_after": 0.012222222222222223,
+   "rejection_spread_before": 0.05555555555555555,
+   "tau": {
+    "Mango_Ripe": 0.375873,
+    "Mango_Unripe": 0.283079
+   }
+  },
+  "ccr_at_fpr5": 0.5368421052631579,
+  "fpr95": 0.7209302325581395,
+  "known_acc": 0.6210526315789474,
+  "n_known": 95,
+  "n_known_test": 95,
+  "n_support": 10,
+  "n_unknown": 43,
+  "n_unknown_test": 43,
+  "oscr": 0.5906976744186047,
+  "rejection_rate_per_class": {
+   "Mango_Ripe": 0.1111111111111111,
+   "Mango_Unripe": 0.0
+  },
+  "support_ids_sha256": "7a425a19704a3565c6a7044054d1c61ce32be4091e24e4208959633c33453381",
+  "threshold_fpr5": 0.36056336760520935,
+  "tpr_at_fpr95": 0.9578947368421052,
+  "unknown_mix": {
+   "Mango_Overripe": 43
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

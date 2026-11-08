@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P1_out_of_grade",
+  "score": "msp",
+  "seed": 0,
+  "shot": 5,
+  "unknown": [
+   "Banana_Overripe"
+  ],
+  "variant": "cls",
+  "view": "fruit12_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:22:24",
+ "metrics": {
+  "auroc": 0.46874824191279885,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.5860759493670886,
+   "classes_without_threshold": [],
+   "fpr": 1.0,
+   "known_accept_rate": 0.9481012658227848,
+   "n_calib": 691,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Banana_Ripe": 0.04903677758318739,
+    "Banana_Unripe": 0.0593607305936073
+   },
+   "rejection_spread_after": 0.005161976505209956,
+   "rejection_spread_before": 0.000279890283009062,
+   "tau": {
+    "Banana_Ripe": 0.503872,
+    "Banana_Unripe": 0.502564
+   }
+  },
+  "ccr_at_fpr5": 0.08481012658227848,
+  "fpr95": 1.0,
+  "known_acc": 0.6113924050632912,
+  "n_known": 790,
+  "n_known_test": 790,
+  "n_support": 10,
+  "n_unknown": 45,
+  "n_unknown_test": 45,
+  "oscr": 0.32194092827004217,
+  "rejection_rate_per_class": {
+   "Banana_Ripe": 0.050788091068301226,
+   "Banana_Unripe": 0.0502283105022831
+  },
+  "support_ids_sha256": "4d9be5af5c52feaceff14306ebb4b32424ca659a673f631ab648fe451958bc28",
+  "threshold_fpr5": 0.5032115282646196,
+  "tpr_at_fpr95": 0.950632911392405,
+  "unknown_mix": {
+   "Banana_Overripe": 45
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_banana"
+ }
+}

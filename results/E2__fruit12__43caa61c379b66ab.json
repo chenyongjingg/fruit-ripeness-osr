@@ -1,0 +1,61 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P2c_unseen_cultivar",
+  "score": "knn",
+  "seed": 1,
+  "shot": null,
+  "unknown": [
+   "Apple"
+  ],
+  "variant": "cls",
+  "view": "fruit12_x_apple"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T06:08:45",
+ "metrics": {
+  "auroc": 0.8610308518683706,
+  "ccr_at_fpr5": 0.5375128468653648,
+  "fpr95": 0.6745283018867925,
+  "known_acc": 0.9095580678314491,
+  "n_known": 973,
+  "n_known_test": 973,
+  "n_support": 4190,
+  "n_unknown": 212,
+  "n_unknown_test": 212,
+  "note": "known = pooled ordinal grades of the other fruits; unknown = the whole held-out fruit",
+  "oscr": 0.7919583470689757,
+  "oscr_definition": "CCR counts only correctly classified accepted knowns",
+  "rejection_rate_per_class": {
+   "overripe": 0.125,
+   "ripe": 0.037337662337662336,
+   "unripe": 0.055762081784386616
+  },
+  "support_ids_sha256": "3719b9d368099586e782bb470cd20ff5901dd579a8eab2d7fe554f1552f16481",
+  "threshold_fpr5": 0.7103505730628967,
+  "tpr_at_fpr95": 0.9506680369989723,
+  "unknown_mix": {
+   "overripe": 57,
+   "ripe": 107,
+   "unripe": 48
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_x_apple"
+ }
+}

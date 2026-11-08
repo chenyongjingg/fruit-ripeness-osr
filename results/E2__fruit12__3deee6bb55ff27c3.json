@@ -1,0 +1,76 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P1_out_of_grade",
+  "score": "knn",
+  "seed": 2,
+  "shot": 5,
+  "unknown": [
+   "Banana_Overripe"
+  ],
+  "variant": "cls",
+  "view": "fruit12_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:24:47",
+ "metrics": {
+  "auroc": 0.7367932489451476,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.5253164556962026,
+   "classes_without_threshold": [],
+   "fpr": 0.7111111111111111,
+   "known_accept_rate": 0.9430379746835443,
+   "n_calib": 691,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Banana_Ripe": 0.0595446584938704,
+    "Banana_Unripe": 0.0502283105022831
+   },
+   "rejection_spread_after": 0.0046581739957936505,
+   "rejection_spread_before": 0.000279890283009062,
+   "tau": {
+    "Banana_Ripe": 0.4779,
+    "Banana_Unripe": 0.484848
+   }
+  },
+  "ccr_at_fpr5": 0.24430379746835443,
+  "fpr95": 0.7111111111111111,
+  "known_acc": 0.5582278481012658,
+  "n_known": 790,
+  "n_known_test": 790,
+  "n_support": 10,
+  "n_unknown": 45,
+  "n_unknown_test": 45,
+  "oscr": 0.439662447257384,
+  "rejection_rate_per_class": {
+   "Banana_Ripe": 0.050788091068301226,
+   "Banana_Unripe": 0.0502283105022831
+  },
+  "support_ids_sha256": "a9357de7155c42fe0f92d3ef53d542da87df4554569e123c49fbaf7e62a5ea48",
+  "threshold_fpr5": 0.47791439294815063,
+  "tpr_at_fpr95": 0.950632911392405,
+  "unknown_mix": {
+   "Banana_Overripe": 45
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_banana"
+ }
+}

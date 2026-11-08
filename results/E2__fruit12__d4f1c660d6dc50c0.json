@@ -1,0 +1,61 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P2c_unseen_cultivar",
+  "score": "energy",
+  "seed": 2,
+  "shot": 5,
+  "unknown": [
+   "Mango"
+  ],
+  "variant": "cls",
+  "view": "fruit12_x_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T06:11:07",
+ "metrics": {
+  "auroc": 0.6753387871489278,
+  "ccr_at_fpr5": 0.27507163323782235,
+  "fpr95": 0.927536231884058,
+  "known_acc": 0.5415472779369628,
+  "n_known": 1047,
+  "n_known_test": 1047,
+  "n_support": 15,
+  "n_unknown": 138,
+  "n_unknown_test": 138,
+  "note": "known = pooled ordinal grades of the other fruits; unknown = the whole held-out fruit",
+  "oscr": 0.41094638926954863,
+  "oscr_definition": "CCR counts only correctly classified accepted knowns",
+  "rejection_rate_per_class": {
+   "overripe": 0.06862745098039216,
+   "ripe": 0.05752212389380531,
+   "unripe": 0.026217228464419477
+  },
+  "support_ids_sha256": "d6dcfba86b3ba9a99bb4563714d0c742d4271fcffa99ec6b1ae6ca83a27de534",
+  "threshold_fpr5": 1.1020958984200524,
+  "tpr_at_fpr95": 0.9503342884431709,
+  "unknown_mix": {
+   "overripe": 43,
+   "ripe": 45,
+   "unripe": 50
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_x_mango"
+ }
+}

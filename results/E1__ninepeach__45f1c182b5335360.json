@@ -1,0 +1,51 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "control": "none",
+  "dataset": "ninepeach",
+  "encoder": "dinov2_b",
+  "exp": "E1",
+  "head": "corn",
+  "seed": 4,
+  "shot": 10,
+  "variant": "cls",
+  "view": "ninepeach"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T12:11:48",
+ "metrics": {
+  "acc": 0.8565965583173997,
+  "macro_f1": 0.8318426586700527,
+  "n": 523,
+  "n_support": 30,
+  "n_test": 523,
+  "off_by_one_rate": 0.13001912045889102,
+  "ordinal_mae": 0.15678776290630975,
+  "per_class_recall": {
+   "immature": 0.9551569506726457,
+   "mature": 0.8095238095238095,
+   "semi-mature": 0.7387387387387387
+  },
+  "support_ids_sha256": "835a30cb73bfe035403364f358fdebc248867ba1370f849635ec693df3bd506f",
+  "support_per_class": {
+   "immature": 10,
+   "mature": 10,
+   "semi-mature": 10
+  },
+  "test_ids_sha256": "23a3068ea0b7c2ce85a3acb10b10699dcc42cd066daf20d7c0785bf4c1648c93",
+  "weighted_f1": 0.8568318800592358
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "meta_sha256_live": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "ordinal": [
+   "immature",
+   "semi-mature",
+   "mature"
+  ],
+  "view": "ninepeach"
+ }
+}

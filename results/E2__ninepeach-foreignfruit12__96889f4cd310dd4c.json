@@ -1,0 +1,68 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "ninepeach<-foreign:fruit12",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "foreign": [
+   "Mango_Overripe",
+   "Mango_Ripe",
+   "Mango_Rotten",
+   "Mango_Unripe"
+  ],
+  "known": [
+   "immature",
+   "mature",
+   "semi-mature"
+  ],
+  "protocol": "P3_foreign",
+  "score": "msp",
+  "seed": 0,
+  "shot": 5,
+  "variant": "cls",
+  "view": "ninepeach"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:28:40",
+ "metrics": {
+  "auroc": 0.638247746517345,
+  "ccr_at_fpr5": 0.11854684512428298,
+  "foreign_ds": "fruit12",
+  "foreign_mix": {
+   "Mango_Overripe": 43,
+   "Mango_Ripe": 45,
+   "Mango_Rotten": 30,
+   "Mango_Unripe": 50
+  },
+  "fpr95": 0.8154761904761905,
+  "known_acc": 0.8183556405353728,
+  "known_ds": "ninepeach",
+  "n_known": 523,
+  "n_known_test": 523,
+  "n_support": 15,
+  "n_unknown": 168,
+  "n_unknown_test": 168,
+  "oscr": 0.5546298825457525,
+  "rejection_rate_per_class": {
+   "immature": 0.017937219730941704,
+   "mature": 0.0582010582010582,
+   "semi-mature": 0.10810810810810811
+  },
+  "support_ids_sha256": "e000d89c634955182ed2c1c1980ed60a19f728c209fe053dff39cf91e4c32037",
+  "threshold_fpr5": 0.34932328540558216,
+  "tpr_at_fpr95": 0.9502868068833652
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": [
+   "immature",
+   "mature",
+   "semi-mature"
+  ],
+  "meta_sha256": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "meta_sha256_live": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "ordinal": null,
+  "view": "ninepeach"
+ }
+}

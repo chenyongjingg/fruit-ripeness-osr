@@ -1,0 +1,47 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "banana4->banana3",
+  "encoder": "clip_b",
+  "exp": "E3",
+  "head": "linear",
+  "seed": 1,
+  "shot": 0,
+  "variant": "cls",
+  "view": "b4->b3"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T04:13:14",
+ "metrics": {
+  "acc": 0.651685393258427,
+  "macro_f1": 0.6322785482756789,
+  "n": 178,
+  "n_support": 7773,
+  "n_test": 178,
+  "off_by_one_rate": 0.34269662921348315,
+  "ordinal_mae": 0.3539325842696629,
+  "per_class_recall": {
+   "overripe": 0.7878787878787878,
+   "ripe": 0.9019607843137255,
+   "unripe": 0.29508196721311475
+  },
+  "source": "banana4",
+  "target": "banana3",
+  "weighted_f1": 0.6384728200223179
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "meta_sha256_live": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "ordinal": [
+   "overripe",
+   "ripe",
+   "unripe"
+  ],
+  "seal_source": "derived",
+  "view": "b4->b3"
+ }
+}

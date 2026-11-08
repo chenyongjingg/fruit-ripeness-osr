@@ -1,0 +1,64 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "dinov2_s",
+  "exp": "E1ord",
+  "head": "linear",
+  "seed": 1,
+  "shot": 50,
+  "variant": "cls",
+  "view": "fruit12_banana"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:30:16",
+ "metrics": {
+  "acc": 0.8574850299401198,
+  "classes": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "confusion": [
+   [
+    186,
+    20,
+    13
+   ],
+   [
+    30,
+    491,
+    50
+   ],
+   [
+    2,
+    4,
+    39
+   ]
+  ],
+  "cost_definition": "adjacent credit .5, skip 0 (plan weights 1:2), macro over ordinal classes",
+  "cost_f1": 0.8680596203271724,
+  "macro_f1": 0.7620355178579349,
+  "n_support": 150,
+  "n_test": 835,
+  "off_by_one_rate": 0.12455089820359282,
+  "ordinal_mae": 0.16047904191616766,
+  "support_ids_sha256": "3a59db0dd8a12fbfc0921fd95f946a96865cf67e36f04f1f98f01aa433aacee1",
+  "test_ids_sha256": "f34a9d076e17514ea3d4699e2b9d6e2956abd425c01cace481fb4136ad605ab3"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Banana_Unripe",
+   "Banana_Ripe",
+   "Banana_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_banana"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "raspgrade",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "mahalanobis",
+  "seed": 0,
+  "shot": 5,
+  "unknown": [
+   "grade3"
+  ],
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:47:06",
+ "metrics": {
+  "auroc": 0.6179160900529923,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.3439767779390421,
+   "classes_without_threshold": [],
+   "fpr": 0.8604651162790697,
+   "known_accept_rate": 0.8838896952104499,
+   "n_calib": 719,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "grade1": 0.10135135135135136,
+    "grade2": 0.12237093690248566,
+    "grade4": 0.16666666666666666,
+    "grade5": 0.0
+   },
+   "rejection_spread_after": 0.0610811680592599,
+   "rejection_spread_before": 0.024569543455685895,
+   "tau": {
+    "grade1": -996.746802,
+    "grade2": -933.699539,
+    "grade4": -979.271997,
+    "grade5": -826.84209
+   }
+  },
+  "ccr_at_fpr5": 0.013062409288824383,
+  "fpr95": 0.9534883720930233,
+  "known_acc": 0.409288824383164,
+  "n_known": 689,
+  "n_known_test": 689,
+  "n_support": 20,
+  "n_unknown": 43,
+  "n_unknown_test": 43,
+  "oscr": 0.23532588517230904,
+  "rejection_rate_per_class": {
+   "grade1": 0.04054054054054054,
+   "grade2": 0.055449330783938815,
+   "grade4": 0.0,
+   "grade5": 0.0
+  },
+  "support_ids_sha256": "3d2530e81d6d1d2fa7ff9efa69a57c10723e74279d0ccf7efa559a71b0472b9c",
+  "threshold_fpr5": -1108.2956298828126,
+  "tpr_at_fpr95": 0.9506531204644412,
+  "unknown_mix": {
+   "grade3": 43
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "view": "raspgrade"
+ }
+}

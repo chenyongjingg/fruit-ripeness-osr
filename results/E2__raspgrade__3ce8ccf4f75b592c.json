@@ -1,0 +1,82 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "raspgrade",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P1_out_of_grade",
+  "score": "msp",
+  "seed": 2,
+  "shot": null,
+  "unknown": [
+   "grade5"
+  ],
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:47:42",
+ "metrics": {
+  "auroc": 0.4763888888888889,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.7388888888888889,
+   "classes_without_threshold": [],
+   "fpr": 1.0,
+   "known_accept_rate": 0.9416666666666667,
+   "n_calib": 738,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "grade1": 0.14864864864864866,
+    "grade2": 0.022944550669216062,
+    "grade3": 0.18604651162790697,
+    "grade4": 0.0
+   },
+   "rejection_spread_after": 0.07946640316519107,
+   "rejection_spread_before": 0.1115524874877462,
+   "tau": {
+    "grade1": 0.404313,
+    "grade2": 0.523318,
+    "grade3": 0.376612,
+    "grade4": 0.466633
+   }
+  },
+  "ccr_at_fpr5": 0.005555555555555556,
+  "fpr95": 1.0,
+  "known_acc": 0.7583333333333333,
+  "n_known": 720,
+  "n_known_test": 720,
+  "n_support": 3491,
+  "n_unknown": 12,
+  "n_unknown_test": 12,
+  "oscr": 0.41921296296296295,
+  "rejection_rate_per_class": {
+   "grade1": 0.11486486486486487,
+   "grade2": 0.01338432122370937,
+   "grade3": 0.27906976744186046,
+   "grade4": 0.0
+  },
+  "support_ids_sha256": "38f1a28ba0862c508f24def8d5280d5164236b4dd1c0938701ef98b85f73063e",
+  "threshold_fpr5": 0.47121563192974275,
+  "tpr_at_fpr95": 0.95,
+  "unknown_mix": {
+   "grade5": 12
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "view": "raspgrade"
+ }
+}

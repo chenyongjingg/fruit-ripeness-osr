@@ -1,0 +1,56 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "control": "none",
+  "dataset": "banana4",
+  "encoder": "resnet50_ft",
+  "epochs": 30,
+  "exp": "E1ft",
+  "head": "finetune",
+  "lr": 0.0003,
+  "seed": 2,
+  "shot": 5,
+  "variant": "pixel",
+  "view": "banana4"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T04:18:33",
+ "metrics": {
+  "acc": 0.76657824933687,
+  "macro_f1": 0.7727867122309915,
+  "n": 377,
+  "n_support": 15,
+  "n_test": 377,
+  "note": "end-to-end fine-tuning; augmentation on, so this arm is if anything advantaged",
+  "off_by_one_rate": 0.22546419098143236,
+  "ordinal_mae": 0.2413793103448276,
+  "per_class_recall": {
+   "overripe": 0.9823008849557522,
+   "ripe": 0.4675324675324675,
+   "unripe": 0.9636363636363636
+  },
+  "support_ids_sha256": "f4dd6615a56583ad4c90cdf36991bbeb8726028492176bad8b667014c96883c4",
+  "support_per_class": {
+   "overripe": 5,
+   "ripe": 5,
+   "unripe": 5
+  },
+  "test_ids_sha256": "9ea1b14112408081e2fd5efb07653f644e08357906e39358aee43819e125434f",
+  "weighted_f1": 0.8015798625374517
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "meta_sha256_live": "5ed9e8f12548187d8fca2218a3a5d7ce30080787c3f2dc59736371084df1ad50",
+  "ordinal": [
+   "unripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana4"
+ }
+}

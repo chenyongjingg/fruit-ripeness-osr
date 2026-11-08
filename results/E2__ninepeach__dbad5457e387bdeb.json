@@ -1,0 +1,74 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "ninepeach",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "energy",
+  "seed": 1,
+  "shot": 5,
+  "unknown": [
+   "immature"
+  ],
+  "variant": "cls",
+  "view": "ninepeach"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:53:14",
+ "metrics": {
+  "auroc": 0.1710014947683109,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.79,
+   "classes_without_threshold": [],
+   "fpr": 0.9955156950672646,
+   "known_accept_rate": 0.92,
+   "n_calib": 297,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "mature": 0.08994708994708994,
+    "semi-mature": 0.06306306306306306
+   },
+   "rejection_spread_after": 0.013442013442013442,
+   "rejection_spread_before": 0.011082511082511081,
+   "tau": {
+    "mature": 0.693153,
+    "semi-mature": 0.693214
+   }
+  },
+  "ccr_at_fpr5": 0.0033333333333333335,
+  "fpr95": 0.9955156950672646,
+  "known_acc": 0.8266666666666667,
+  "n_known": 300,
+  "n_known_test": 300,
+  "n_support": 10,
+  "n_unknown": 223,
+  "n_unknown_test": 223,
+  "oscr": 0.16215246636771302,
+  "rejection_rate_per_class": {
+   "mature": 0.0582010582010582,
+   "semi-mature": 0.036036036036036036
+  },
+  "support_ids_sha256": "858aa2ebb6c3abffa5ceb31e952f5f178190b5811157a450f08864c918522f12",
+  "threshold_fpr5": 0.6931559586683217,
+  "tpr_at_fpr95": 0.95,
+  "unknown_mix": {
+   "immature": 223
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "meta_sha256_live": "2bfe2f32c3414acf482ecb89702d08a93082b3382cf8a4f59c37084513ce1057",
+  "ordinal": [
+   "immature",
+   "semi-mature",
+   "mature"
+  ],
+  "view": "ninepeach"
+ }
+}

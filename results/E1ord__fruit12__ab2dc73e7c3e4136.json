@@ -1,0 +1,64 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E1ord",
+  "head": "linear",
+  "seed": 3,
+  "shot": 50,
+  "variant": "cls",
+  "view": "fruit12_mango"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:32:13",
+ "metrics": {
+  "acc": 0.8623188405797102,
+  "classes": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "confusion": [
+   [
+    40,
+    3,
+    7
+   ],
+   [
+    2,
+    42,
+    1
+   ],
+   [
+    0,
+    6,
+    37
+   ]
+  ],
+  "cost_definition": "adjacent credit .5, skip 0 (plan weights 1:2), macro over ordinal classes",
+  "cost_f1": 0.9049044180876966,
+  "macro_f1": 0.861824769433465,
+  "n_support": 150,
+  "n_test": 138,
+  "off_by_one_rate": 0.08695652173913043,
+  "ordinal_mae": 0.18840579710144928,
+  "support_ids_sha256": "3713fac316a1a563a65b29fb946cf65bd95318e471bd1b1d0d99417a83449644",
+  "test_ids_sha256": "6104495893c0fa40fc8e4851cb7c617e4f68b98c7dcd9a0f2c80e27480e383d2"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Mango_Unripe",
+   "Mango_Ripe",
+   "Mango_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_mango"
+ }
+}

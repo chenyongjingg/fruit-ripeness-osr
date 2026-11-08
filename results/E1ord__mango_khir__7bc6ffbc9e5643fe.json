@@ -1,0 +1,64 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "mango_khir",
+  "encoder": "resnet50",
+  "exp": "E1ord",
+  "head": "proto",
+  "seed": 4,
+  "shot": 10,
+  "variant": "cls",
+  "view": "mango_khir"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T09:32:29",
+ "metrics": {
+  "acc": 0.6986301369863014,
+  "classes": [
+   "UnRipe",
+   "Ripe",
+   "OverRipe"
+  ],
+  "confusion": [
+   [
+    95,
+    10,
+    31
+   ],
+   [
+    0,
+    6,
+    2
+   ],
+   [
+    1,
+    0,
+    1
+   ]
+  ],
+  "cost_definition": "adjacent credit .5, skip 0 (plan weights 1:2), macro over ordinal classes",
+  "cost_f1": 0.5729858838926801,
+  "macro_f1": 0.4581736909323117,
+  "n_support": 30,
+  "n_test": 146,
+  "off_by_one_rate": 0.0821917808219178,
+  "ordinal_mae": 0.5205479452054794,
+  "support_ids_sha256": "0f2ab93a90654ec21e896551771d0506e900a2864520a7d0d0146c8e7a401660",
+  "test_ids_sha256": "fba88d573ce5f7620ee01488b3d31e01316be6d5a5ec929ecb7a5714788b14a9"
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "689a5df23071e7239e3dceab22c2f2ca44c7d8af990b8b55a912d707d8a359df",
+  "meta_sha256_live": "689a5df23071e7239e3dceab22c2f2ca44c7d8af990b8b55a912d707d8a359df",
+  "ordinal": [
+   "UnRipe",
+   "Ripe",
+   "OverRipe"
+  ],
+  "seal_source": "derived",
+  "view": "mango_khir"
+ }
+}

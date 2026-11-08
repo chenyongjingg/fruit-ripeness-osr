@@ -1,0 +1,79 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "fruit12",
+  "encoder": "resnet50",
+  "exp": "E2",
+  "protocol": "P3_rotten",
+  "score": "knn",
+  "seed": 2,
+  "shot": null,
+  "unknown": [
+   "Apple_Rotten"
+  ],
+  "variant": "cls",
+  "view": "fruit12_apple"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T07:21:51",
+ "metrics": {
+  "auroc": 0.8189049204587496,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.7783018867924528,
+   "classes_without_threshold": [],
+   "fpr": 0.5490196078431373,
+   "known_accept_rate": 0.9009433962264151,
+   "n_calib": 212,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "Apple_Overripe": 0.14035087719298245,
+    "Apple_Ripe": 0.102803738317757,
+    "Apple_Unripe": 0.041666666666666664
+   },
+   "rejection_spread_after": 0.04066953893543564,
+   "rejection_spread_before": 0.03627124833965719,
+   "tau": {
+    "Apple_Overripe": 0.745336,
+    "Apple_Ripe": 0.685814,
+    "Apple_Unripe": 0.727832
+   }
+  },
+  "ccr_at_fpr5": 0.5094339622641509,
+  "fpr95": 0.8627450980392157,
+  "known_acc": 0.8490566037735849,
+  "n_known": 212,
+  "n_known_test": 212,
+  "n_support": 949,
+  "n_unknown": 51,
+  "n_unknown_test": 51,
+  "oscr": 0.7133740288568259,
+  "rejection_rate_per_class": {
+   "Apple_Overripe": 0.08771929824561403,
+   "Apple_Ripe": 0.056074766355140186,
+   "Apple_Unripe": 0.0
+  },
+  "support_ids_sha256": "f743c6fce98a190bf5082e4cc971ceaac1f0d73eada15159282571308a2b7aa0",
+  "threshold_fpr5": 0.6549774408340454,
+  "tpr_at_fpr95": 0.9528301886792453,
+  "unknown_mix": {
+   "Apple_Rotten": 51
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "meta_sha256_live": "4a89f53048ee8b41c0dd0760958639441ca9c4b2d7c4f276d1ddf71cc8d17d8f",
+  "ordinal": [
+   "Apple_Unripe",
+   "Apple_Ripe",
+   "Apple_Overripe"
+  ],
+  "seal_source": "derived",
+  "view": "fruit12_apple"
+ }
+}

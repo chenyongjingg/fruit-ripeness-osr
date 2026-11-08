@@ -1,0 +1,58 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "raspgrade",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P1_out_of_grade",
+  "score": "msp",
+  "seed": 0,
+  "shot": null,
+  "unknown": [
+   "grade5"
+  ],
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T10:42:01",
+ "metrics": {
+  "auroc": 0.34375,
+  "ccr_at_fpr5": 0.09861111111111111,
+  "fpr95": 1.0,
+  "known_acc": 0.775,
+  "n_known": 720,
+  "n_known_test": 720,
+  "n_support": 3491,
+  "n_unknown": 12,
+  "n_unknown_test": 12,
+  "oscr": 0.30972222222222223,
+  "rejection_rate_per_class": {
+   "grade1": 0.11486486486486487,
+   "grade2": 0.015296367112810707,
+   "grade3": 0.18604651162790697,
+   "grade4": 0.5
+  },
+  "support_ids_sha256": "38f1a28ba0862c508f24def8d5280d5164236b4dd1c0938701ef98b85f73063e",
+  "threshold_fpr5": 0.45314633657015924,
+  "tpr_at_fpr95": 0.95,
+  "unknown_mix": {
+   "grade5": 12
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "view": "raspgrade"
+ }
+}

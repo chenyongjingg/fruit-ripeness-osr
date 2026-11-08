@@ -1,0 +1,69 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": null,
+  "control": "none",
+  "dataset": "banana3",
+  "encoder": "Qwen2-VL-7B-Instruct",
+  "exp": "B2_qwen_5shot",
+  "head": "in-context",
+  "seed": 0,
+  "shot": 5,
+  "variant": "4bit",
+  "view": "banana3"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T06:48:21",
+ "metrics": {
+  "acc": 0.7666666666666667,
+  "macro_f1": 0.759295857121944,
+  "n": 120,
+  "n_test": 120,
+  "off_by_one_rate": 0.225,
+  "ordinal_mae": 0.24166666666666667,
+  "per_class_recall": {
+   "overripe": 1.0,
+   "ripe": 0.525,
+   "underripe": 0.775
+  },
+  "raw_answer_examples": [
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe",
+   "overripe"
+  ],
+  "test_ids_sha256": "d6682e82ae7a8066f5a33f98f7e7a510b1bbfaf6aa1a330dfb526d37f6843ab1",
+  "unparsed_rate": 0.0,
+  "weighted_f1": 0.7894158981115502
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "meta_sha256_live": "a4aca1049a622c3efa7aa89a34b32ae3e8070d9586dffdf8f7cf5964c53870ef",
+  "ordinal": [
+   "underripe",
+   "ripe",
+   "overripe"
+  ],
+  "seal_source": "derived",
+  "view": "banana3"
+ }
+}

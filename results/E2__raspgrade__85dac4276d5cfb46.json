@@ -1,0 +1,82 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "calib": "per_class_val_q05",
+  "dataset": "raspgrade",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P1_out_of_grade",
+  "score": "knn",
+  "seed": 2,
+  "shot": 5,
+  "unknown": [
+   "grade5"
+  ],
+  "variant": "cls",
+  "view": "raspgrade"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T11:45:46",
+ "metrics": {
+  "auroc": 0.4570601851851852,
+  "calibrated": {
+   "calib_source": "val",
+   "ccr": 0.24861111111111112,
+   "classes_without_threshold": [],
+   "fpr": 0.9166666666666666,
+   "known_accept_rate": 0.875,
+   "n_calib": 738,
+   "note": "thresholds fitted on val (group-disjoint from train/test); global FPR is an outcome, not a target",
+   "rejection_rate_per_class": {
+    "grade1": 0.11486486486486487,
+    "grade2": 0.12810707456978968,
+    "grade3": 0.11627906976744186,
+    "grade4": 0.16666666666666666
+   },
+   "rejection_spread_after": 0.02095596055548621,
+   "rejection_spread_before": 0.020640453180539108,
+   "tau": {
+    "grade1": 0.706627,
+    "grade2": 0.693631,
+    "grade3": 0.64228,
+    "grade4": 0.704442
+   }
+  },
+  "ccr_at_fpr5": 0.015277777777777777,
+  "fpr95": 1.0,
+  "known_acc": 0.2763888888888889,
+  "n_known": 720,
+  "n_known_test": 720,
+  "n_support": 20,
+  "n_unknown": 12,
+  "n_unknown_test": 12,
+  "oscr": 0.12106481481481482,
+  "rejection_rate_per_class": {
+   "grade1": 0.04054054054054054,
+   "grade2": 0.055449330783938815,
+   "grade3": 0.023255813953488372,
+   "grade4": 0.0
+  },
+  "support_ids_sha256": "6e98cbdeee6ceeb3f2e12e3e8b2f8b6371fbc50caa748b9af24a130c0bde3492",
+  "threshold_fpr5": 0.6605145931243896,
+  "tpr_at_fpr95": 0.95,
+  "unknown_mix": {
+   "grade5": 12
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "known": null,
+  "meta_sha256": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "meta_sha256_live": "df27a49dad04d17c0b460ad7e0a014cb0b137a339a5bc0e5693d5658aa74c0b9",
+  "ordinal": [
+   "grade1",
+   "grade2",
+   "grade3",
+   "grade4",
+   "grade5"
+  ],
+  "view": "raspgrade"
+ }
+}

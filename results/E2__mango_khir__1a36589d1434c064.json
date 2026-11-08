@@ -1,0 +1,56 @@
+{
+ "code_version": "rio-1.0.0",
+ "config": {
+  "C": 1.0,
+  "dataset": "mango_khir",
+  "encoder": "dinov2_s",
+  "exp": "E2",
+  "protocol": "P2_unseen_interior",
+  "score": "msp",
+  "seed": 1,
+  "shot": 5,
+  "unknown": [
+   "UnRipe"
+  ],
+  "variant": "cls",
+  "view": "mango_khir"
+ },
+ "extra": {},
+ "finished_at": "2026-11-08T08:45:49",
+ "metrics": {
+  "auroc": 0.6801470588235294,
+  "ccr_at_fpr5": 0.1,
+  "fpr95": 0.7794117647058824,
+  "known_acc": 0.6,
+  "n_known": 10,
+  "n_known_test": 10,
+  "n_support": 10,
+  "n_unknown": 136,
+  "n_unknown_test": 136,
+  "oscr": 0.4536764705882353,
+  "rejection_rate_per_class": {
+   "OverRipe": 0.0,
+   "Ripe": 0.125
+  },
+  "support_ids_sha256": "1bc38a31ed3ca843d83427750459c17d1b10e5a62777982243c041bb3a4287da",
+  "threshold_fpr5": 0.5165327505472193,
+  "tpr_at_fpr95": 1.0,
+  "unknown_mix": {
+   "UnRipe": 136
+  }
+ },
+ "seal": {
+  "code_version": "rio-1.0.0",
+  "derived_from": "config+card+live meta.csv",
+  "known": null,
+  "meta_sha256": "689a5df23071e7239e3dceab22c2f2ca44c7d8af990b8b55a912d707d8a359df",
+  "meta_sha256_live": "689a5df23071e7239e3dceab22c2f2ca44c7d8af990b8b55a912d707d8a359df",
+  "ordinal": [
+   "UnRipe",
+   "Ripe",
+   "OverRipe"
+  ],
+  "seal_source": "derived",
+  "view": "mango_khir"
+ }
+}
