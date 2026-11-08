@@ -12,7 +12,7 @@ from rio.common import log, read_json
 import run as R
 import baselines as B
 
-QWEN_DIR = "/root/rio/models/Qwen2-VL-7B-Instruct"
+QWEN_DIR = str(Path(__file__).resolve().parent / "models" / "Qwen2-VL-7B-Instruct")
 
 
 def fruit_of(view, v):

@@ -8,7 +8,7 @@
 #
 # Every run is keyed by its config hash, so this loop is idempotent: it finishes
 # the arm once and then just idles, picking up nothing on later passes.
-cd /root/rio || exit 1
+cd "$(cd "$(dirname "$0")" && pwd)" || exit 1
 export HF_ENDPOINT=https://hf-mirror.com
 export OMP_NUM_THREADS=8
 export PYTHONUNBUFFERED=1

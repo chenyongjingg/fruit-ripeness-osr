@@ -2,7 +2,8 @@
 # Download Qwen2-VL-7B-Instruct from ModelScope (resumable per shard).
 set -u
 BASE="https://modelscope.cn/models/Qwen/Qwen2-VL-7B-Instruct/resolve/master"
-OUT="/root/rio/models/Qwen2-VL-7B-Instruct"
+R="$(cd "$(dirname "$0")" && pwd)"
+OUT="$R/models/Qwen2-VL-7B-Instruct"
 mkdir -p "$OUT"
 FILES="config.json generation_config.json preprocessor_config.json chat_template.json merges.txt vocab.json tokenizer.json tokenizer_config.json special_tokens_map.json model.safetensors.index.json model-00001-of-00005.safetensors model-00002-of-00005.safetensors model-00003-of-00005.safetensors model-00004-of-00005.safetensors model-00005-of-00005.safetensors"
 for f in $FILES; do

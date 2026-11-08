@@ -188,7 +188,8 @@ def parse_label(text, labels):
     return None
 
 
-def qwen_eval(ds, view, fruit, ordinal, shot=0, model_dir="/root/rio/models/Qwen2-VL-7B-Instruct",
+def qwen_eval(ds, view, fruit, ordinal, shot=0,
+              model_dir=str(Path(__file__).resolve().parent / "models" / "Qwen2-VL-7B-Instruct"),
               quant="bf16", max_n=180, seed=0):
     import torch
     cfg = {"exp": "B2_qwen_%s" % ("zeroshot" if shot == 0 else "%dshot" % shot), "dataset": ds,

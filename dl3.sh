@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /root/rio/data/raw || exit 1
+R="$(cd "$(dirname "$0")" && pwd)"; cd "$R/data/raw" || exit 1
 get(){ url="$1"; out="$2"; want="$3"
   for i in $(seq 1 20); do
     rm -f "$out"

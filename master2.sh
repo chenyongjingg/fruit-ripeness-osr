@@ -3,11 +3,11 @@
 # so killing and restarting this script at any point resumes where it stopped.
 #
 # v2 adds a per-stage wall-clock guard. Nothing else in this container will notice a
-# hung process: there is no cron, no systemd, no supervisor entry for /root/rio, and the
+# hung process: there is no cron, no systemd, no supervisor entry for this directory, and the
 # author is away. A single stuck Qwen generation would otherwise stall the driver
 # forever and the next REPORT.md would never be written. `timeout` turns a hang into a
 # logged non-zero return code, and the loop moves on; the next cycle retries the stage.
-cd /root/rio || exit 1
+cd "$(cd "$(dirname "$0")" && pwd)" || exit 1
 export HF_ENDPOINT=https://hf-mirror.com
 export TOKENIZERS_PARALLELISM=false
 export OMP_NUM_THREADS=8
@@ -113,7 +113,7 @@ while true; do
 
   python3 - <<'PY' > outputs/status.json
 import json,glob,collections,time,os
-c=collections.Counter(os.path.basename(f).split('__')[0] for f in glob.glob('/root/rio/results/*.json'))
+c=collections.Counter(os.path.basename(f).split('__')[0] for f in glob.glob('results/*.json'))
 print(json.dumps({"at":time.strftime("%Y-%m-%dT%H:%M:%S"),"runs":dict(c),"n":sum(c.values())},indent=1))
 PY
   sleep 900

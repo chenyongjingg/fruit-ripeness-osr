@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /root/rio/data/raw || exit 1
+R="$(cd "$(dirname "$0")" && pwd)"; cd "$R/data/raw" || exit 1
 dl(){ url="$1"; out="$2"; want="$3";
   for i in $(seq 1 40); do
     sz=$(stat -c%s "$out" 2>/dev/null || echo 0)

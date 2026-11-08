@@ -1,6 +1,6 @@
 #!/bin/bash
 # Own loop for the Qwen weights: never blocks the science stages.
-cd /root/rio || exit 1
+cd "$(cd "$(dirname "$0")" && pwd)" || exit 1
 for i in $(seq 1 12); do
   python3 - <<'PY'
 import ensure_data as E

@@ -6,7 +6,7 @@ numbers stay tied to the same experiment run (no re-training, no re-sampling).
 """
 import sys, numpy as np
 from pathlib import Path
-sys.path.insert(0, "/root/rio")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from rio.common import RESULTS, atomic_write_json, read_json
 from rio.methods import open_set_metrics
 

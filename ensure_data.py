@@ -10,8 +10,9 @@ equals the size the server reports.
 import json, os, subprocess, sys, time
 from pathlib import Path
 
-RAW = Path("/root/rio/data/raw")
-QWEN = Path("/root/rio/models/Qwen2-VL-7B-Instruct")
+_REPO = Path(__file__).resolve().parent
+RAW = Path(os.environ.get("RIO_ROOT", _REPO)) / "data" / "raw"
+QWEN = Path(os.environ.get("RIO_ROOT", _REPO)) / "models" / "Qwen2-VL-7B-Instruct"
 QFILES = ["config.json", "generation_config.json", "preprocessor_config.json",
           "chat_template.json", "merges.txt", "vocab.json", "tokenizer.json",
           "tokenizer_config.json", "special_tokens_map.json",

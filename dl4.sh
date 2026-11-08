@@ -3,9 +3,10 @@
 set -u
 URL="https://hf-mirror.com/datasets/Sapek007/banana-ripeness/resolve/main/banana_ripeness_dataset.zip"
 EXP=234641843
-OUT=/root/rio/data/raw/banana4/data.zip
-mkdir -p /root/rio/data/raw/banana4
-cd /root/rio/data/raw/banana4 || exit 1
+R="$(cd "$(dirname "$0")" && pwd)"
+OUT="$R/data/raw/banana4/data.zip"
+mkdir -p "$R/data/raw/banana4"
+cd "$R/data/raw/banana4" || exit 1
 rm -f data.zip data.zip.part
 for i in $(seq 1 40); do
   curl -sSL --speed-limit 30000 --speed-time 60 -o data.zip.part "$URL"
@@ -16,7 +17,7 @@ for i in $(seq 1 40); do
 done
 python3 - <<'PY'
 import zipfile
-z=zipfile.ZipFile('/root/rio/data/raw/banana4/data.zip')
+z=zipfile.ZipFile('data.zip')
 imgs=[n for n in z.namelist() if n.lower().endswith(('.jpg','.png'))]
 bad=0
 for n in imgs: 

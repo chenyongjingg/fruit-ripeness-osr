@@ -9,8 +9,9 @@ Usage: python3 np_run.py [all|build|extract|e1|e2|e2x]
 """
 import sys
 import time
+from pathlib import Path
 
-sys.path.insert(0, '/root/rio')
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from rio.common import log
 from rio import data as D
 import run

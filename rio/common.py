@@ -2,7 +2,9 @@
 import os, json, hashlib, time, sys, tempfile
 from pathlib import Path
 
-ROOT = Path(os.environ.get("RIO_ROOT", "/root/rio"))
+# The repository root is this file's grandparent, so a clone runs where it sits.
+# `RIO_ROOT` overrides it (e.g. when results live on a bigger disk than the code).
+ROOT = Path(os.environ.get("RIO_ROOT", Path(__file__).resolve().parent.parent))
 DATA = ROOT / "data"
 RAW = DATA / "raw"
 PROC = DATA / "processed"

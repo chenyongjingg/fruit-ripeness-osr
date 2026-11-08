@@ -1,7 +1,7 @@
 #!/bin/bash
 # Restart the unattended pipeline. Safe any time: every stage is idempotent.
 # Also (re)starts the watchdog, which brings the driver back if it ever dies.
-cd /root/rio || exit 1
+cd "$(cd "$(dirname "$0")" && pwd)" || exit 1
 rm -f STOP
 if ! pgrep -f 'watchdo[g].sh' >/dev/null 2>&1; then
   setsid nohup bash watchdog.sh >> logs/watchdog.out 2>&1 < /dev/null &

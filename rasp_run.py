@@ -5,7 +5,8 @@ reaches the same cell is a no-op. Kept as a separate script so the master driver
 can run it too without any change.
 """
 import sys, time
-sys.path.insert(0, '/root/rio')
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from rio.common import log
 import run
 

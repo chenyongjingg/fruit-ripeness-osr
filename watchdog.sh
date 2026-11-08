@@ -11,7 +11,7 @@
 #   * a driver is running -> do nothing;
 #   * otherwise start one, exactly the way START.sh does.
 # Idempotent by construction: it only ever starts the driver when `pgrep` finds none.
-cd /root/rio || exit 1
+cd "$(cd "$(dirname "$0")" && pwd)" || exit 1
 while true; do
   if [ ! -f STOP ]; then
     if ! pgrep -f 'maste[r]2.sh' >/dev/null 2>&1; then

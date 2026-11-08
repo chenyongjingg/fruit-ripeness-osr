@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 import pandas as pd
 
-sys.path.insert(0, str(Path("/root/rio")))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from rio.common import OUT
 
 import matplotlib

@@ -13,7 +13,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, "/root/rio")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from rio import data as D
 from rio.common import OUT
 

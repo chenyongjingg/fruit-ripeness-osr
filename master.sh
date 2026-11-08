@@ -1,7 +1,7 @@
 #!/bin/bash
 # Unattended master driver. Every stage is idempotent (results keyed by config hash),
 # so killing and restarting this script at any point resumes where it stopped.
-cd /root/rio || exit 1
+cd "$(cd "$(dirname "$0")" && pwd)" || exit 1
 export HF_ENDPOINT=https://hf-mirror.com
 export TOKENIZERS_PARALLELISM=false
 export OMP_NUM_THREADS=8
@@ -42,7 +42,7 @@ while true; do
 
   python3 - <<'PY' > outputs/status.json
 import json,glob,collections,time,os
-c=collections.Counter(os.path.basename(f).split('__')[0] for f in glob.glob('/root/rio/results/*.json'))
+c=collections.Counter(os.path.basename(f).split('__')[0] for f in glob.glob('results/*.json'))
 print(json.dumps({"at":time.strftime("%Y-%m-%dT%H:%M:%S"),"runs":dict(c),"n":sum(c.values())},indent=1))
 PY
   sleep 900
