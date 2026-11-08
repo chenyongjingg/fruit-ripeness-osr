@@ -42,10 +42,13 @@ Three results constrain the story and are not hidden in the paper:
   both are listed explicitly (`outputs/T15_collapsed.csv`, `outputs/T16_small_n.csv`) instead
   of being silently averaged.
 
-**Gate:** `python3 final_check.py` → `PASSED 57 / 57`, `FAILURES: 0`. It checks, among other
-things, that every result carries a data seal, that `verify_indep.py` re-derives AUROC / FPR@95
-/ known accuracy from the raw score arrays with a **second implementation** (0 violations over
-3,264 arrays), and that no dataset card has drifted from the live `meta.csv`.
+**Gate:** `python3 final_check.py` → `PASSED 57 / 57`, `FAILURES: 0` on the machine that
+produced the results. It checks, among other things, that every result carries a data seal,
+that `verify_indep.py` re-derives AUROC / FPR@95 / known accuracy from the raw score arrays
+with a **second implementation** (0 violations over 3,264 arrays), and that no dataset card
+has drifted from the live `meta.csv`. In a clone the one item that needs the image archives
+(`every raw dataset prepared`) prints `SKIP` instead of a verdict, so a bare clone reads
+`PASSED 56 / 56`, `SKIPPED: 1` — a skip is never counted as a pass.
 
 ---
 
@@ -54,15 +57,20 @@ things, that every result carries a data seal, that `verify_indep.py` re-derives
 ### A. Re-derive every table from the stored evidence (no GPU, no datasets)
 
 `results/scores/*.npz` holds the raw rejection scores for all 3,264 open-set runs, so the
-analysis layer can be re-run on its own:
+analysis layer can be re-run on its own. The scripts read and write under the repository
+root (`RIO_ROOT` overrides that if the results live on another disk):
 
 ```bash
 pip install -r requirements.txt
 python3 analyze_v2.py --bootstrap 1000     # T11 … T16
-python3 report.py --rebuild                # outputs/REPORT.md
+python3 report.py                          # outputs/REPORT.md, master.csv, figures
 python3 verify_indep.py                    # independent re-derivation of the metrics
-python3 final_check.py                     # expect 57 / 57
+python3 final_check.py                     # 56 / 56 + 1 skip in a bare clone
 ```
+
+Regenerating `outputs/` on a different machine reproduces the tables digit for digit; the
+only differences seen are float last digits (1e-16, from the numpy/scipy build) and PNG
+bytes (matplotlib version). The bootstrap column of `T16b` depends on `--bootstrap`.
 
 ### B. Re-run the experiments from scratch
 
@@ -94,9 +102,18 @@ results/               12,728 experiment records + scores/*.npz (the raw rejecti
 outputs/               every table and figure the manuscript cites
 data/processed/*/      card.json (measured dataset fingerprint) + meta.csv (the exact split)
 logs/                  the run logs, including the passing final_check
+probe/                 the small audit scripts behind the checks quoted in the paper
 docs: PLAN_VS_DATA.md  (zh) measured-vs-planned ledger; README_SERVER.md (en) operations;
       HANDOVER_ZH.md   (zh) full operating notes and known traps
 ```
+
+Two things about the tree that will look odd and are not damage. `probe/` and
+`make_snapshot.sh` still carry the pod's `/root/rio` paths: they are the scripts that were
+actually executed there and are kept as run evidence, unlike the pipeline itself, which
+resolves its root from `__file__`. And 960 file names under `results/` contain a private-use
+`<` / `:` — Windows cannot store those characters, so the extractor remapped them — which
+is why those names look like `E2__banana3?-foreign?fruit12__…`. Every reader globs
+`results/*.json`, so no name is ever typed by hand.
 
 ## Protocols in one sentence each
 
