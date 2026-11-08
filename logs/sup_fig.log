@@ -1,0 +1,27 @@
+[fig4] cells available: 17
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 17
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 17
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 19
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 33
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 33
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 33
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 33
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]
+[fig4] cells available: 33
+[fig4] picked: [('banana3', 'P1_out_of_grade'), ('fruit12_banana', 'P3_rotten'), ('banana3', 'P2_unseen_interior'), ('fruit12_x_apple', 'P2c_unseen_cultivar')]
+drew: [('fig4_score_distributions.png', 'known vs unknown score distributions'), ('fig5_domain_tsne_dinov2_s.png, fig5_domain_tsne_resnet50.png', 'source vs target domain embeddings')]

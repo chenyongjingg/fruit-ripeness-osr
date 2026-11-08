@@ -1,0 +1,183 @@
+/root/rio/report.py:163: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:173: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"macro_ap": ms_values(x, "macro_ap"),
+/root/rio/report.py:185: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"cost_f1": ms_values(x, "cost_f1"),
+/root/rio/report.py:195: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:202: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"auroc": ms_values(x, "auroc"), "fpr95": ms_values(x, "fpr95"),
+/root/rio/report.py:137: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.apply(lambda x: pd.Series({
+/root/rio/report.py:222: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:228: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:248: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+/usr/local/lib/python3.10/dist-packages/scipy/stats/_axis_nan_policy.py:430: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  return hypotest_fun_in(*args, **kwds)
+E2 score files: 3264 on disk, 3264 resolved to their run JSON, 0 unmatched; metric mismatches: 0
+runs: 11404 outputs -> /root/rio/outputs
+# Independent metric re-derivation
+
+AUROC (rank form, no sklearn), FPR@95 (threshold sweep), known accuracy and
+array sizes, recomputed from `results/scores/*.npz` and compared with the stored
+values. OSCR is definition-sensitive (discrete ROC); only its deviation under a
+right-continuous step rule is reported.
+
+checked: 3264 arrays, unresolved: 0, violations: 0
+worst |diff|: auroc 2.22e-16 (003ee4248e1f608d.npz), fpr95 0.00e+00 (), known_acc 0.00e+00 (), oscr-step 6.63e-06 (2379c46b27afc9b5.npz)
+
+PASS cards exist                                    n=10
+PASS group_leak_count == 0 everywhere               []
+PASS every raw dataset prepared                     raw=['banana3', 'banana4', 'f360rot', 'ffr', 'field4', 'fruit12', 'fruits360', 'mango_khir'] unprepared=[]
+PASS master.csv non-trivial                         rows=11404
+PASS arm E1 present                                 runs=3216 (>=1000)
+PASS arm E2 present                                 runs=3264 (>=900)
+PASS arm E3 present                                 runs=768 (>=100)
+PASS arm E1ft present                               runs=48 (>=20)
+PASS arm E1lora present                             runs=84 (>=20)
+PASS CLIP baselines                                 runs=10
+PASS Qwen zero-shot baselines                       runs=14
+PASS B1_* test size within cap                      over-cap=[]
+PASS B2_* test size within cap                      over-cap=[]
+PASS mango_khir has E1 runs                         runs=854 (>=10)
+PASS leave-one-fruit-out present                    held=['apple', 'cucumber', 'orange', 'pear', 'tomato'] runs=240
+PASS ffr has P3_rotten runs                         runs=48 encoders=['dinov2_s', 'resnet50']
+PASS Fruits-360 rotten class arm present            runs=96 encoders=['dinov2_s', 'resnet50']
+PASS P3 foreign-matter arm present                  runs=192 known_views=['banana3', 'ffr', 'fruit12_apple', 'ninepeach']
+PASS per-class AP arm present                       rows=320 views=8
+PASS ordinal cost-F1 arm present                    runs=2400 views=8
+PASS E1ord reproduces E1 (acc, macro-F1)            pairs=2016 mismatches=0 worst_abs_diff=0.000e+00 ()
+PASS E3 feature-alignment tier present              runs=384 views=['b3->b4', 'b4->b3', 'banana', 'mango']
+PASS ordinal (CORN) head arm present                runs=672 views=8
+PASS instrument self-tests clean                    checks=12 both_named=True
+PASS P2c present                                    runs=144 views=['fruit12_x_apple', 'fruit12_x_banana', 'fruit12_x_mango']
+PASS calibration arm present                        runs=1296
+PASS T3 excludes calibrated runs                    sum(n_runs)=1968 uncalibrated=1968
+PASS T10 rows                                       rows=304
+PASS T10 records calibration source                 val
+PASS calibration not on support (except tiny views) support-fitted rows=0
+PASS T9 encoders measured                           dinov2_s 6.1ms; dinov2_b 5.0ms; clip_b 17.2ms; resnet50 6.1ms
+PASS T9 peakers                                     rows=10
+PASS T9 training-memory probe                       finetune_resnet50 1646MB; lora_dinov2_s 965MB
+PASS T7 has both adapted arms                       ['E1ft', 'E1lora']
+PASS Qwen 5-shot recomputed after prompt fix        n=7 stale=0 []
+PASS Qwen 5-shot parseable                          high-unparsed=[]
+PASS controls at chance (mean macro-F1)             worst cell banana3 random_features = +0.017; single-run max = +0.110
+PASS REPORT sections                                missing=[] size=594560B
+PASS REPORT reports the P2c arm                     
+PASS no unreadable result files                     unreadable result files: 0
+PASS VERIFY resolved every score file               disk=3264 resolved=3264 unmatched=0
+PASS VERIFY metric mismatches == 0                  mismatches=0
+PASS independent metrics: arrays checked > 0        checked=3264
+PASS independent metrics: no violations             unresolved=0 violations=0
+FAIL every result carries a data seal               sealed=11401 unsealed(>30min)=1 ['E2__f360rot__91da14934dc677f2.json']
+PASS no card-vs-live data drift                     all 10 datasets match
+PASS no 'unseen_cultivar' in outputs                
+PASS REPORT uses P2c_unseen_species                 
+PASS T15 collapsed-cell list written                rows=16
+PASS T15 agrees with master.csv                     matched=20/20 max|gap|=0.00e+00
+PASS T16 thin-cell list written                     rows=4
+PASS ANALYSIS_V2 tables present                     missing=[] size=19173B
+PASS MSP==Energy exactly on 2-class cells           row=[{'n_cells': 114, 'spearman': 1.0, 'frac_identical': 1.0}]
+PASS plan-v2 figure fig_v2_arms.pdf                 15153B
+PASS plan-v2 figure fig_v2_flip.pdf                 15530B
+PASS NinePeach card records plan-vs-archive discrepancy n_images=3493 leak=0
+PASS NinePeach archive verified (size + md5) and the counts agree with the card file=True boxes_in_report=3493 boxes_in_card=3493
+
+PASSED 56 / 57
+FAILURES: 1
+  - every result carries a data seal  sealed=11401 unsealed(>30min)=1 ['E2__f360rot__91da14934dc677f2.json']

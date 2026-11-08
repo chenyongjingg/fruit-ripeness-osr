@@ -1,0 +1,190 @@
+[2026-11-08T04:27:06+0000] === baselines which=clip views=7 ===
+[2026-11-08T04:27:10+0000] [clip] banana3          acc=0.399 f1=0.277
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  73%|███████▎  | 429/590 [00:00<00:00, 4250.72it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4128.85it/s]
+[2026-11-08T04:27:15+0000] [clip] banana4          acc=0.487 f1=0.524
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  74%|███████▍  | 438/590 [00:00<00:00, 4377.60it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4321.25it/s]
+[2026-11-08T04:27:22+0000] [clip] fruit12_apple    acc=0.163 f1=0.336
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  74%|███████▎  | 434/590 [00:00<00:00, 4337.89it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4249.50it/s]
+[2026-11-08T04:27:29+0000] [clip] fruit12_banana   acc=0.125 f1=0.177
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  83%|████████▎ | 490/590 [00:00<00:00, 4874.41it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4533.08it/s]
+[2026-11-08T04:27:36+0000] [clip] fruit12_mango    acc=0.112 f1=0.211
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  76%|███████▌  | 449/590 [00:00<00:00, 4480.15it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4526.35it/s]
+[2026-11-08T04:27:44+0000] [clip] field4_banana    acc=0.194 f1=0.253
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 8597.99it/s]
+[2026-11-08T04:27:51+0000] [clip] field4_mango     acc=0.166 f1=0.222
+[2026-11-08T04:27:51+0000] === baselines done ===
+[2026-11-08T04:37:44+0000] === baselines which=clip views=7 ===
+[2026-11-08T04:37:48+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T04:37:48+0000] [clip] banana4          acc=0.487 f1=0.524
+[2026-11-08T04:37:48+0000] [clip] fruit12_apple    acc=0.163 f1=0.336
+[2026-11-08T04:37:48+0000] [clip] fruit12_banana   acc=0.125 f1=0.177
+[2026-11-08T04:37:48+0000] [clip] fruit12_mango    acc=0.112 f1=0.211
+[2026-11-08T04:37:48+0000] [clip] field4_banana    acc=0.194 f1=0.253
+[2026-11-08T04:37:48+0000] [clip] field4_mango     acc=0.166 f1=0.222
+[2026-11-08T04:37:48+0000] === baselines done ===
+[2026-11-08T05:51:18+0000] === baselines which=clip views=7 ===
+[2026-11-08T05:51:22+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T05:51:22+0000] [clip] banana4          acc=0.487 f1=0.524
+[2026-11-08T05:51:22+0000] [clip] fruit12_apple    acc=0.163 f1=0.336
+[2026-11-08T05:51:22+0000] [clip] fruit12_banana   acc=0.125 f1=0.177
+[2026-11-08T05:51:22+0000] [clip] fruit12_mango    acc=0.112 f1=0.211
+[2026-11-08T05:51:22+0000] [clip] field4_banana    acc=0.194 f1=0.253
+[2026-11-08T05:51:22+0000] [clip] field4_mango     acc=0.166 f1=0.222
+[2026-11-08T05:51:22+0000] === baselines done ===
+[2026-11-08T06:17:48+0000] === baselines which=clip views=7 ===
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  78%|███████▊  | 463/590 [00:00<00:00, 4629.75it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4470.29it/s]
+[2026-11-08T06:17:59+0000] [clip] banana3          acc=0.399 f1=0.277
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 484/590 [00:00<00:00, 4818.64it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4656.83it/s]
+[2026-11-08T06:18:12+0000] [clip] banana4          acc=0.647 f1=0.604
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 6121.80it/s]
+[2026-11-08T06:18:16+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 6205.60it/s]
+[2026-11-08T06:18:24+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 482/590 [00:00<00:00, 4753.51it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4644.25it/s]
+[2026-11-08T06:18:30+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  73%|███████▎  | 429/590 [00:00<00:00, 4286.38it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4246.00it/s]
+[2026-11-08T06:18:45+0000] [clip] field4_banana    acc=0.388 f1=0.346
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 6570.79it/s]
+[2026-11-08T06:19:01+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T06:19:01+0000] === baselines done ===
+[2026-11-08T06:45:24+0000] === baselines which=clip views=7 ===
+[2026-11-08T06:45:29+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T06:45:29+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T06:45:29+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T06:45:29+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T06:45:29+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T06:45:29+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T06:45:29+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T06:45:29+0000] === baselines done ===
+[2026-11-08T07:34:49+0000] === baselines which=clip views=7 ===
+[2026-11-08T07:34:53+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T07:34:53+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T07:34:53+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T07:34:53+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T07:34:53+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T07:34:53+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T07:34:53+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T07:34:53+0000] === baselines done ===
+[2026-11-08T07:51:37+0000] === baselines which=clip views=7 ===
+[2026-11-08T07:51:41+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T07:51:41+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T07:51:41+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T07:51:41+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T07:51:41+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T07:51:41+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T07:51:41+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T07:51:41+0000] === baselines done ===
+[2026-11-08T08:08:24+0000] === baselines which=clip views=7 ===
+[2026-11-08T08:08:28+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T08:08:28+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T08:08:28+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T08:08:28+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T08:08:28+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T08:08:28+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T08:08:28+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T08:08:28+0000] === baselines done ===
+[2026-11-08T08:27:24+0000] === baselines which=clip views=8 ===
+[2026-11-08T08:27:28+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T08:27:28+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T08:27:28+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T08:27:28+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T08:27:28+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  84%|████████▍ | 495/590 [00:00<00:00, 4886.05it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4352.92it/s]
+[2026-11-08T08:27:32+0000] [clip] mango_khir       acc=0.938 f1=0.397
+[2026-11-08T08:27:32+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T08:27:32+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T08:27:32+0000] === baselines done ===
+[2026-11-08T11:45:16+0000] === baselines which=clip views=12 ===
+[2026-11-08T11:45:24+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T11:45:24+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T11:45:24+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T11:45:24+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T11:45:24+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T11:45:24+0000] [clip] mango_khir       acc=0.938 f1=0.397
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  36%|███▌      | 210/590 [00:00<00:00, 2077.36it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 3573.36it/s]
+[2026-11-08T11:45:33+0000] [clip] raspgrade        acc=0.204 f1=0.108
+/root/rio/baselines.py:38: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = te.groupby("label_name", group_keys=False).apply(
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 6666.52it/s]
+[2026-11-08T11:45:49+0000] [clip] ninepeach        acc=0.290 f1=0.150
+[2026-11-08T11:45:49+0000] [baselines] skip ffr (view marks itself baseline=False)
+[2026-11-08T11:45:49+0000] [baselines] skip f360rot (view marks itself baseline=False)
+[2026-11-08T11:45:49+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T11:45:49+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T11:45:49+0000] === baselines done ===
+[2026-11-08T12:07:23+0000] === baselines which=clip views=12 ===
+[2026-11-08T12:07:27+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T12:07:27+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T12:07:27+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T12:07:27+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T12:07:27+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T12:07:27+0000] [clip] mango_khir       acc=0.938 f1=0.397
+[2026-11-08T12:07:27+0000] [clip] raspgrade        acc=0.204 f1=0.108
+[2026-11-08T12:07:27+0000] [clip] ninepeach        acc=0.290 f1=0.150
+[2026-11-08T12:07:27+0000] [baselines] skip ffr (view marks itself baseline=False)
+[2026-11-08T12:07:27+0000] [baselines] skip f360rot (view marks itself baseline=False)
+[2026-11-08T12:07:27+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T12:07:27+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T12:07:27+0000] === baselines done ===
+[2026-11-08T12:14:17+0000] === baselines which=clip views=12 ===
+[2026-11-08T12:14:21+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T12:14:21+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T12:14:21+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T12:14:21+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T12:14:21+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T12:14:21+0000] [clip] mango_khir       acc=0.938 f1=0.397
+[2026-11-08T12:14:21+0000] [clip] raspgrade        acc=0.204 f1=0.108
+[2026-11-08T12:14:21+0000] [clip] ninepeach        acc=0.290 f1=0.150
+[2026-11-08T12:14:21+0000] [baselines] skip ffr (view marks itself baseline=False)
+[2026-11-08T12:14:21+0000] [baselines] skip f360rot (view marks itself baseline=False)
+[2026-11-08T12:14:21+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T12:14:21+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T12:14:21+0000] === baselines done ===
+[2026-11-08T12:33:16+0000] === baselines which=clip views=12 ===
+[2026-11-08T12:33:20+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T12:33:20+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T12:33:20+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T12:33:20+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T12:33:20+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T12:33:20+0000] [clip] mango_khir       acc=0.938 f1=0.397
+[2026-11-08T12:33:20+0000] [clip] raspgrade        acc=0.204 f1=0.108
+[2026-11-08T12:33:20+0000] [clip] ninepeach        acc=0.290 f1=0.150
+[2026-11-08T12:33:20+0000] [baselines] skip ffr (view marks itself baseline=False)
+[2026-11-08T12:33:20+0000] [baselines] skip f360rot (view marks itself baseline=False)
+[2026-11-08T12:33:20+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T12:33:20+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T12:33:20+0000] === baselines done ===
+[2026-11-08T12:52:48+0000] === baselines which=clip views=12 ===
+[2026-11-08T12:52:52+0000] [clip] banana3          acc=0.399 f1=0.277
+[2026-11-08T12:52:52+0000] [clip] banana4          acc=0.647 f1=0.604
+[2026-11-08T12:52:52+0000] [clip] fruit12_apple    acc=0.608 f1=0.613
+[2026-11-08T12:52:52+0000] [clip] fruit12_banana   acc=0.316 f1=0.299
+[2026-11-08T12:52:52+0000] [clip] fruit12_mango    acc=0.645 f1=0.588
+[2026-11-08T12:52:52+0000] [clip] mango_khir       acc=0.938 f1=0.397
+[2026-11-08T12:52:52+0000] [clip] raspgrade        acc=0.204 f1=0.108
+[2026-11-08T12:52:52+0000] [clip] ninepeach        acc=0.290 f1=0.150
+[2026-11-08T12:52:52+0000] [baselines] skip ffr (view marks itself baseline=False)
+[2026-11-08T12:52:52+0000] [baselines] skip f360rot (view marks itself baseline=False)
+[2026-11-08T12:52:52+0000] [clip] field4_banana    acc=0.388 f1=0.346
+[2026-11-08T12:52:52+0000] [clip] field4_mango     acc=0.333 f1=0.330
+[2026-11-08T12:52:52+0000] === baselines done ===

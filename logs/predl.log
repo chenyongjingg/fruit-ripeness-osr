@@ -1,0 +1,4 @@
+FAIL vit_small_patch14_dinov2.lvd142m Input height (224) doesn't match model (518).
+OK resnet50.a1_in1k 25s out=(1, 2048, 7, 7)
+FAIL vit_base_patch14_dinov2.lvd142m Input height (224) doesn't match model (518).
+OK vit_base_patch16_clip_224.openai 345s out=(1, 197, 768)

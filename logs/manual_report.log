@@ -1,0 +1,16 @@
+/root/rio/report.py:113: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:121: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:128: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"auroc": ms_values(x, "auroc"), "fpr95": ms_values(x, "fpr95"),
+/root/rio/report.py:88: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.apply(lambda x: pd.Series({
+/root/rio/report.py:138: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:144: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+/root/rio/report.py:152: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"acc": ms_values(x, "acc"), "macro_f1": ms_values(x, "macro_f1"),
+E2 score files: 1820 on disk, 1820 resolved to their run JSON, 0 unmatched; metric mismatches: 0
+runs: 4205 outputs -> /root/rio/outputs

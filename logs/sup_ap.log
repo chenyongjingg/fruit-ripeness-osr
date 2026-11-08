@@ -1,0 +1,16 @@
+[2026-11-08T09:20:37+0000] [E1ap] done ok=1600 skipped=0
+/root/rio/ap_extra.py:145: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({
+[2026-11-08T09:20:38+0000] [E1ap] wrote /root/rio/outputs/T2b_per_class_ap.csv (320 rows)
+[2026-11-08T12:12:30+0000] [E1ap] done ok=2000 skipped=0
+/root/rio/ap_extra.py:145: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({
+[2026-11-08T12:12:31+0000] [E1ap] wrote /root/rio/outputs/T2b_per_class_ap.csv (400 rows)
+[2026-11-08T12:32:41+0000] [E1ap] done ok=2000 skipped=0
+/root/rio/ap_extra.py:145: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({
+[2026-11-08T12:32:42+0000] [E1ap] wrote /root/rio/outputs/T2b_per_class_ap.csv (400 rows)
+[2026-11-08T12:51:42+0000] [E1ap] done ok=2000 skipped=0
+/root/rio/ap_extra.py:145: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({
+[2026-11-08T12:51:42+0000] [E1ap] wrote /root/rio/outputs/T2b_per_class_ap.csv (400 rows)

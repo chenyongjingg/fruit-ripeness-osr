@@ -1,0 +1,9 @@
+OK field4/train.parquet 354414592
+curl done banana4/data.zip
+OK banana4/data.zip 234658227
+curl: (28) Operation too slow. Less than 20000 bytes/sec transferred the last 30 seconds
+curl done fruit12/data.zip
+OK fruit12/data.zip 381519705
+ALLDONE
+banana4/data.zip ZIP_BAD File is not a zip file
+fruit12/data.zip ZIP_BAD File is not a zip file

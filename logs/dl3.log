@@ -1,0 +1,11 @@
+curl: (28) Operation too slow. Less than 50000 bytes/sec transferred the last 40 seconds
+curl: (28) Operation too slow. Less than 50000 bytes/sec transferred the last 40 seconds
+OK fruit12/data.zip 377524652
+Terminated
+retry 1 size=0 want=234641843
+Terminated
+retry 2 size=33136640 want=234641843
+Terminated
+retry 3 size=5316608 want=234641843
+dl3.sh: line 4:  4170 Killed                  curl -sSL --retry 2 --speed-limit 50000 --speed-time 40 -o "$out" "$url"
+retry 4 size=7110656 want=234641843

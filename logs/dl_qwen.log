@@ -1,0 +1,11 @@
+got config.json 1197
+got generation_config.json 244
+got preprocessor_config.json 347
+got chat_template.json 1050
+got merges.txt 1671839
+got vocab.json 2776833
+got tokenizer.json 7029741
+got tokenizer_config.json 4190
+got special_tokens_map.json 145
+got model.safetensors.index.json 56470
+got model-00001-of-00005.safetensors 3898649896

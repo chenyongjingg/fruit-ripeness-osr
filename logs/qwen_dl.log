@@ -1,0 +1,12 @@
+ready: False
+[ensure 03:44:29] qwen remote sizes known for 1/15 files
+[ensure 03:44:29] model-00002-of-00005.safetensors exists but is incomplete (2975707136 B) -> re-fetching
+[ensure 03:44:29] GET model-00002-of-00005.safetensors (try 1)
+[ensure 03:47:44] OK model-00002-of-00005.safetensors 3864726320
+[ensure 03:47:44] GET model-00003-of-00005.safetensors (try 1)
+[ensure 03:58:31] OK model-00003-of-00005.safetensors 3864726424
+[ensure 03:58:31] GET model-00004-of-00005.safetensors (try 1)
+[ensure 04:10:15] OK model-00004-of-00005.safetensors 3864733680
+[ensure 04:10:15] GET model-00005-of-00005.safetensors (try 1)
+[ensure 04:13:19] OK model-00005-of-00005.safetensors 1089994880
+QWEN_READY

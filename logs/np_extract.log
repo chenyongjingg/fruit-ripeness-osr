@@ -1,0 +1,27 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-11-08T11:18:33+0000] [feat] ninepeach dinov2_s: 640/3493 (99.9 img/s)
+[2026-11-08T11:18:38+0000] [feat] ninepeach dinov2_s: 1280/3493 (111.1 img/s)
+[2026-11-08T11:18:43+0000] [feat] ninepeach dinov2_s: 1920/3493 (119.2 img/s)
+[2026-11-08T11:18:48+0000] [feat] ninepeach dinov2_s: 2560/3493 (119.1 img/s)
+[2026-11-08T11:18:56+0000] [feat] ninepeach dinov2_s: 3200/3493 (111.6 img/s)
+[2026-11-08T11:18:58+0000] [feat] done ninepeach dinov2_s n=3493 dim=384 31.4s -> /root/rio/cache/features/ninepeach__dinov2_s.npz
+[2026-11-08T11:19:08+0000] [feat] ninepeach dinov2_b: 640/3493 (103.9 img/s)
+[2026-11-08T11:19:13+0000] [feat] ninepeach dinov2_b: 1280/3493 (110.8 img/s)
+[2026-11-08T11:19:18+0000] [feat] ninepeach dinov2_b: 1920/3493 (117.3 img/s)
+[2026-11-08T11:19:24+0000] [feat] ninepeach dinov2_b: 2560/3493 (116.2 img/s)
+[2026-11-08T11:19:31+0000] [feat] ninepeach dinov2_b: 3200/3493 (109.1 img/s)
+[2026-11-08T11:19:34+0000] [feat] done ninepeach dinov2_b n=3493 dim=768 32.3s -> /root/rio/cache/features/ninepeach__dinov2_b.npz
+[2026-11-08T11:19:45+0000] [feat] ninepeach clip_b: 640/3493 (105.7 img/s)
+[2026-11-08T11:19:50+0000] [feat] ninepeach clip_b: 1280/3493 (112.8 img/s)
+[2026-11-08T11:19:55+0000] [feat] ninepeach clip_b: 1920/3493 (119.3 img/s)
+[2026-11-08T11:20:00+0000] [feat] ninepeach clip_b: 2560/3493 (118.1 img/s)
+[2026-11-08T11:20:08+0000] [feat] ninepeach clip_b: 3200/3493 (110.4 img/s)
+[2026-11-08T11:20:11+0000] [feat] done ninepeach clip_b n=3493 dim=768 31.9s -> /root/rio/cache/features/ninepeach__clip_b.npz
+[2026-11-08T11:20:18+0000] [feat] ninepeach resnet50: 640/3493 (109.6 img/s)
+[2026-11-08T11:20:23+0000] [feat] ninepeach resnet50: 1280/3493 (118.2 img/s)
+[2026-11-08T11:20:27+0000] [feat] ninepeach resnet50: 1920/3493 (125.8 img/s)
+[2026-11-08T11:20:33+0000] [feat] ninepeach resnet50: 2560/3493 (124.2 img/s)
+[2026-11-08T11:20:40+0000] [feat] ninepeach resnet50: 3200/3493 (116.2 img/s)
+[2026-11-08T11:20:45+0000] [feat] done ninepeach resnet50 n=3493 dim=2048 32.9s -> /root/rio/cache/features/ninepeach__resnet50.npz
+[2026-11-08T11:20:45+0000] [np] extract done in 145s
+[2026-11-08T11:20:45+0000] [np] step extract finished

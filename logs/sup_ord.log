@@ -1,0 +1,20 @@
+[2026-11-08T09:33:10+0000] [E1ord] done ok=1600 skipped=0
+/root/rio/ord_extra.py:220: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"cost_f1": ms(x, "cost_f1"),
+[2026-11-08T09:33:10+0000] [E1ord] wrote /root/rio/outputs/T2c_ordinal_cost_f1.csv (320 rows)
+[2026-11-08T09:33:10+0000] [E1ord] cross-check vs E1: pairs=1344 mismatches=0 worst=0.00e+00 ()
+[2026-11-08T12:13:22+0000] [E1ord] done ok=3000 skipped=0
+/root/rio/ord_extra.py:220: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"cost_f1": ms(x, "cost_f1"),
+[2026-11-08T12:13:23+0000] [E1ord] wrote /root/rio/outputs/T2c_ordinal_cost_f1.csv (600 rows)
+[2026-11-08T12:13:23+0000] [E1ord] cross-check vs E1: pairs=2520 mismatches=0 worst=0.00e+00 ()
+[2026-11-08T12:32:43+0000] [E1ord] done ok=3000 skipped=0
+/root/rio/ord_extra.py:220: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"cost_f1": ms(x, "cost_f1"),
+[2026-11-08T12:32:43+0000] [E1ord] wrote /root/rio/outputs/T2c_ordinal_cost_f1.csv (600 rows)
+[2026-11-08T12:32:44+0000] [E1ord] cross-check vs E1: pairs=2520 mismatches=0 worst=0.00e+00 ()
+[2026-11-08T12:51:44+0000] [E1ord] done ok=3000 skipped=0
+/root/rio/ord_extra.py:220: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  t = g.apply(lambda x: pd.Series({"cost_f1": ms(x, "cost_f1"),
+[2026-11-08T12:51:44+0000] [E1ord] wrote /root/rio/outputs/T2c_ordinal_cost_f1.csv (600 rows)
+[2026-11-08T12:51:45+0000] [E1ord] cross-check vs E1: pairs=2520 mismatches=0 worst=0.00e+00 ()

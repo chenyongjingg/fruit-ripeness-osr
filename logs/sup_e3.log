@@ -1,0 +1,135 @@
+[2026-11-08T04:12:35+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T04:13:33+0000] [E3] pairs defined: 4
+[2026-11-08T04:13:33+0000] === done stage=e3 ===
+[2026-11-08T04:37:39+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T04:37:39+0000] [E3] pairs defined: 4
+[2026-11-08T04:37:39+0000] === done stage=e3 ===
+[2026-11-08T05:51:13+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T05:51:13+0000] [E3] pairs defined: 4
+[2026-11-08T05:51:13+0000] === done stage=e3 ===
+[2026-11-08T06:45:19+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T06:45:19+0000] [E3] pairs defined: 4
+[2026-11-08T06:45:19+0000] === done stage=e3 ===
+[2026-11-08T07:34:43+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T07:34:43+0000] [E3] pairs defined: 4
+[2026-11-08T07:34:43+0000] === done stage=e3 ===
+[2026-11-08T07:51:32+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T07:51:32+0000] [E3] pairs defined: 4
+[2026-11-08T07:51:32+0000] === done stage=e3 ===
+[2026-11-08T08:08:19+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T08:08:19+0000] [E3] pairs defined: 4
+[2026-11-08T08:08:19+0000] === done stage=e3 ===
+[2026-11-08T08:27:18+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T08:27:18+0000] [E3] pairs defined: 4
+[2026-11-08T08:27:18+0000] === done stage=e3 ===
+[2026-11-08T11:44:14+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T11:44:14+0000] [drift] E3__banana3->banana4__709dd2b2ece3a9f8.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__9959996ca2ec78bf.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__8c034476d368c9d4.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__ab8f56d176e06711.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__08801fa5e32aa008.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__d5868118f06520d8.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__905028180328fe5d.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__58e2d54db419b78e.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__166ac8b16ee64c40.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__9795b6ec96eb36d3.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__41d2449c415727ec.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__912b810bdeaf426f.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__8c34358365d61029.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__e1bb831e6051daf3.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__90c36702d4f0e441.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__8d680898ddddda3b.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__ace23f6447ebd250.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__5ef5ebb2a3f29bea.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__528e9e82af7adf50.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__1a6f15a8fe59ce0b.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__601631be0b5b8bfa.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__40a432d228db7bda.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__0935ca0d88204727.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__2746cc77c5ba75dc.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:15+0000] [drift] E3__banana3->banana4__a98e8b8b01fb76df.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__47ed2ea4a8d72a63.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__955cf3bc68de0dd4.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__29cfd9ffe9fef544.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__063f70be734fd7b8.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__0528b2851c1d3c10.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__5c2770b244fce822.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__c300cbf71d1b0a8a.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__e80f2fbfbd7bb44e.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__0a5e34ebefeb64fa.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__4c9bc001486007b0.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__61b779c53909f8c7.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__669bec0faf416f47.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__76f83995fd5a092b.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__54927d9912f04d20.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:17+0000] [drift] E3__banana3->banana4__88755ae65294d683.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__48b27f2693b923ca.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__f8dd13a03caa4788.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__e7ad8b4d186ddbbf.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__9772b57afae26531.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__675f926c83701cc1.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__1c395495487a0abe.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__059c9386aaeadafd.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__4f4381fe93ce139b.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:18+0000] [drift] E3__banana3->banana4__c1a7f40f61b1d4de.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:19+0000] [drift] E3__banana3->banana4__d4fb99a2a863e411.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:20+0000] [drift] E3__banana3->banana4__cf4f7d13f8095c62.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:20+0000] [drift] E3__banana3->banana4__98d0aaa10177c0aa.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:22+0000] [drift] E3__banana3->banana4__8eddf4f76c95fceb.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:22+0000] [drift] E3__banana3->banana4__77bad12ee8e55ca1.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:24+0000] [drift] E3__banana3->banana4__3f82553c34d8d9f8.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:24+0000] [drift] E3__banana3->banana4__0d5eacf20c4e6200.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:25+0000] [drift] E3__banana3->banana4__50f834849466db4b.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:25+0000] [drift] E3__banana3->banana4__765d77dcd1a7dcf5.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:26+0000] [drift] E3__banana3->banana4__b5359b98454918df.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:26+0000] [drift] E3__banana3->banana4__a130a83b06a1d8e4.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:27+0000] [drift] E3__banana3->banana4__48305c0007e971bc.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:27+0000] [drift] E3__banana3->banana4__cf8332c82c690b70.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:28+0000] [drift] E3__banana3->banana4__3a906e905782a593.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:28+0000] [drift] E3__banana3->banana4__45be22e71f2c0e38.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:29+0000] [drift] E3__banana3->banana4__e9e6e2fdfdd8f220.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:29+0000] [drift] E3__banana3->banana4__fff1ff36e002dbdc.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:31+0000] [drift] E3__banana3->banana4__a82e22a27a22d8c3.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:31+0000] [drift] E3__banana3->banana4__05b248c7d3eb9f31.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:33+0000] [drift] E3__banana3->banana4__dc4551c1f5547a61.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:33+0000] [drift] E3__banana3->banana4__a930a75f6243b745.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:34+0000] [drift] E3__banana3->banana4__23ef5b8e45fdfd3a.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:34+0000] [drift] E3__banana3->banana4__2f6bfb8e7d823646.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:35+0000] [drift] E3__banana3->banana4__41bd40a8065ab52f.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:38+0000] [drift] E3__banana3->banana4__ac55af92ee997493.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:39+0000] [drift] E3__banana3->banana4__0f8adfd216964d8e.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:39+0000] [drift] E3__banana3->banana4__87a6bd4890d7ff3b.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:40+0000] [drift] E3__banana3->banana4__84da3f404f3c2a40.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:40+0000] [drift] E3__banana3->banana4__507bc7ef4c50a748.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:42+0000] [drift] E3__banana3->banana4__f2b25c6169113e65.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:42+0000] [drift] E3__banana3->banana4__baa01041cc2e3076.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:44+0000] [drift] E3__banana3->banana4__386d0a8b4a532b62.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:44+0000] [drift] E3__banana3->banana4__9d3a26dfad6326d2.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:45+0000] [drift] E3__banana3->banana4__92412bfbcec2028d.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:45+0000] [drift] E3__banana3->banana4__311549ca3bd7eade.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:46+0000] [drift] E3__banana3->banana4__918668d83b653f5f.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:46+0000] [drift] E3__banana3->banana4__0f00380e7975044e.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:47+0000] [drift] E3__banana3->banana4__1c6b7ae388d2004c.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:47+0000] [drift] E3__banana3->banana4__18d6687b8998b913.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:49+0000] [drift] E3__banana3->banana4__22376373fb6fd875.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:49+0000] [drift] E3__banana3->banana4__1ee35b48329c084f.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:49+0000] [drift] E3__banana3->banana4__a32fb3f755568040.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:49+0000] [drift] E3__banana3->banana4__9a098b1621e02983.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:50+0000] [drift] E3__banana3->banana4__6e2f3fc09702394c.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:51+0000] [drift] E3__banana3->banana4__11daf8d95879f815.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:52+0000] [drift] E3__banana3->banana4__7fe85ee5017187bc.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:52+0000] [drift] E3__banana3->banana4__40e64cc1904d9a30.json: ordinal changed since this result was written -> recomputing
+[2026-11-08T11:44:54+0000] [E3] pairs defined: 4
+[2026-11-08T11:44:54+0000] === done stage=e3 ===
+[2026-11-08T12:07:18+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T12:07:18+0000] [E3] pairs defined: 4
+[2026-11-08T12:07:18+0000] === done stage=e3 ===
+[2026-11-08T12:13:47+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T12:13:48+0000] [E3] pairs defined: 4
+[2026-11-08T12:13:48+0000] === done stage=e3 ===
+[2026-11-08T12:33:09+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T12:33:10+0000] [E3] pairs defined: 4
+[2026-11-08T12:33:10+0000] === done stage=e3 ===
+[2026-11-08T12:52:41+0000] === run.py stage=e3 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2] ===
+[2026-11-08T12:52:41+0000] [E3] pairs defined: 4
+[2026-11-08T12:52:41+0000] === done stage=e3 ===

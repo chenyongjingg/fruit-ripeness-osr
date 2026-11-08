@@ -1,0 +1,42 @@
+[2026-11-08T03:48:25+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T03:55:52+0000] [E1] finished chunk done=1176
+[2026-11-08T03:55:52+0000] === done stage=e1 ===
+[2026-11-08T04:01:50+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T04:01:50+0000] [E1] finished chunk done=1176
+[2026-11-08T04:01:50+0000] === done stage=e1 ===
+[2026-11-08T04:37:34+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T04:37:34+0000] [E1] finished chunk done=1176
+[2026-11-08T04:37:34+0000] === done stage=e1 ===
+[2026-11-08T05:51:08+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T05:51:08+0000] [E1] finished chunk done=1176
+[2026-11-08T05:51:08+0000] === done stage=e1 ===
+[2026-11-08T06:05:51+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T06:05:51+0000] [E1] finished chunk done=1176
+[2026-11-08T06:05:51+0000] === done stage=e1 ===
+[2026-11-08T07:07:31+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T07:07:31+0000] [E1] finished chunk done=1176
+[2026-11-08T07:07:31+0000] === done stage=e1 ===
+[2026-11-08T07:51:27+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T07:51:27+0000] [E1] finished chunk done=1176
+[2026-11-08T07:51:27+0000] === done stage=e1 ===
+[2026-11-08T08:08:14+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T08:08:15+0000] [E1] finished chunk done=1176
+[2026-11-08T08:08:15+0000] === done stage=e1 ===
+[2026-11-08T08:25:53+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T08:25:55+0000] [E1] finished chunk done=1344
+[2026-11-08T08:25:55+0000] === done stage=e1 ===
+[2026-11-08T08:45:47+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T08:45:47+0000] [E1] finished chunk done=1344
+[2026-11-08T08:45:47+0000] === done stage=e1 ===
+[2026-11-08T12:06:44+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:06:45+0000] [E1] finished chunk done=1680
+[2026-11-08T12:06:45+0000] === done stage=e1 ===
+[2026-11-08T12:11:35+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:11:36+0000] [E1] finished chunk done=1680
+[2026-11-08T12:11:36+0000] === done stage=e1 ===
+[2026-11-08T12:32:36+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:32:37+0000] [E1] finished chunk done=1680
+[2026-11-08T12:32:37+0000] === done stage=e1 ===
+[2026-11-08T12:51:37+0000] === run.py stage=e1 enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50, None] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:51:38+0000] [E1] finished chunk done=1680
+[2026-11-08T12:51:38+0000] === done stage=e1 ===

@@ -1,0 +1,13 @@
+zip: /root/rio/data/raw/ninepeach/Peach_maturity_dataset.zip
+size: 8838332680 expected: 8838332680 MATCH
+md5: e0fb0a2dfbab161546d398aef17ad081 expected: e0fb0a2dfbab161546d398aef17ad081 MATCH
+members: images 1245 {'.jpg': 1245} | xml 1245
+duplicate basenames: 0 (content conflicts: 0)
+annotation <object><name> histogram: {'immature': 1618, 'mature': 1168, 'semi-mature': 707}
+annotated photos: 1245 | boxes: 3493 | annotations without image: 0 | empty annotations: 0
+top-level dirs: {'Peach_maturity_dataset': 1245}
+any cultivar/grade-like path segment: ['peach_maturity_dataset']
+
+PLAN CLAIMS: 3,849 images / 9 cultivars / 3 grades
+MEASURED   : 1245 image members | 1245 annotated photos | 3493 boxes | 3 class names ['immature', 'mature', 'semi-mature']
+wrote /root/rio/outputs/NINEPEACH_VERIFY.md

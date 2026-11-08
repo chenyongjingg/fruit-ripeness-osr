@@ -1,0 +1,42 @@
+PASS corn: proba rows sum to 1                            max|sum-1|=2.22e-16
+PASS corn: proba non-negative                             
+PASS corn: P(K-1) == prod(S)                              max|d|=0.00e+00
+PASS corn: P(0) == 1 - S_0                                
+PASS corn: conditional tasks calibrated to their subsets  pred=[0.77  0.657 0.539] data=[0.793 0.63  0.587]
+PASS corn: separated grades -> accuracy 1.0               acc=1.0000
+PASS corn: shuffled labels do not reproduce grades        acc=0.4400
+PASS corn: prediction index non-decreasing in grade       idx=[np.int64(0), np.int64(1), np.int64(2), np.int64(3)]
+PASS corn: make_head rejects unknown head names           
+PASS mahal: precision reused, not refitted                max|d|=0.00e+00
+PASS mahal: fast form agrees with the quadratic form (rel < 1e-5) max|d|=2.29e-05 (scale 1.23e+02)
+PASS mahal: far points score lower than support points    near=[-71.34 -66.22 -71.64] far=[-4097.93 -4081.08 -4078.65]
+
+FAILURES: 0
+PASS corn: proba rows sum to 1                            max|sum-1|=2.22e-16
+PASS corn: proba non-negative                             
+PASS corn: P(K-1) == prod(S)                              max|d|=0.00e+00
+PASS corn: P(0) == 1 - S_0                                
+PASS corn: conditional tasks calibrated to their subsets  pred=[0.77  0.657 0.539] data=[0.793 0.63  0.587]
+PASS corn: separated grades -> accuracy 1.0               acc=1.0000
+PASS corn: shuffled labels do not reproduce grades        acc=0.4400
+PASS corn: prediction index non-decreasing in grade       idx=[np.int64(0), np.int64(1), np.int64(2), np.int64(3)]
+PASS corn: make_head rejects unknown head names           
+PASS mahal: precision reused, not refitted                max|d|=0.00e+00
+PASS mahal: fast form agrees with the quadratic form (rel < 1e-5) max|d|=2.29e-05 (scale 1.23e+02)
+PASS mahal: far points score lower than support points    near=[-71.34 -66.22 -71.64] far=[-4097.93 -4081.08 -4078.65]
+
+FAILURES: 0
+PASS corn: proba rows sum to 1                            max|sum-1|=2.22e-16
+PASS corn: proba non-negative                             
+PASS corn: P(K-1) == prod(S)                              max|d|=0.00e+00
+PASS corn: P(0) == 1 - S_0                                
+PASS corn: conditional tasks calibrated to their subsets  pred=[0.77  0.657 0.539] data=[0.793 0.63  0.587]
+PASS corn: separated grades -> accuracy 1.0               acc=1.0000
+PASS corn: shuffled labels do not reproduce grades        acc=0.4400
+PASS corn: prediction index non-decreasing in grade       idx=[np.int64(0), np.int64(1), np.int64(2), np.int64(3)]
+PASS corn: make_head rejects unknown head names           
+PASS mahal: precision reused, not refitted                max|d|=0.00e+00
+PASS mahal: fast form agrees with the quadratic form (rel < 1e-5) max|d|=2.29e-05 (scale 1.23e+02)
+PASS mahal: far points score lower than support points    near=[-71.34 -66.22 -71.64] far=[-4097.93 -4081.08 -4078.65]
+
+FAILURES: 0

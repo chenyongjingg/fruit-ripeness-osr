@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-11-08T10:26:24+0000] [E5] dinov2_s   params=21.63M latency=5.07ms peak32=255MB
+[2026-11-08T10:26:24+0000] [E5] dinov2_b   params=85.72M latency=4.84ms peak32=643MB
+[2026-11-08T10:26:24+0000] [E5] clip_b     params=85.80M latency=4.60ms peak32=576MB
+[2026-11-08T10:26:24+0000] [E5] resnet50   params=23.51M latency=5.57ms peak32=435MB
+[2026-11-08T10:26:25+0000] [E5] train_mem finetune_resnet50  1665 MB
+[2026-11-08T10:26:31+0000] [E5] train_mem lora_dinov2_s      966 MB
+[2026-11-08T10:26:31+0000] [E5] wrote /root/rio/outputs/T9_efficiency.csv (10 rows)

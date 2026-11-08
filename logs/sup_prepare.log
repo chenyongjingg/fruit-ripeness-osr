@@ -1,0 +1,33 @@
+[2026-11-08T03:44:04+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T03:44:25+0000] [data] banana4: n=13478 classes=4 splits={'train': 11793, 'val': 1123, 'test': 562} groups=13478
+[2026-11-08T03:44:25+0000] === done stage=prepare ===
+[2026-11-08T04:01:46+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T04:01:46+0000] === done stage=prepare ===
+[2026-11-08T04:37:29+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T04:37:29+0000] === done stage=prepare ===
+[2026-11-08T05:51:04+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T05:51:04+0000] === done stage=prepare ===
+[2026-11-08T06:05:47+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T06:05:47+0000] === done stage=prepare ===
+[2026-11-08T07:07:27+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T07:07:27+0000] === done stage=prepare ===
+[2026-11-08T07:51:23+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T07:51:23+0000] === done stage=prepare ===
+[2026-11-08T08:08:10+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T08:08:10+0000] === done stage=prepare ===
+[2026-11-08T08:24:59+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T08:25:05+0000] [data] mango_khir: n=975 classes=3 splits={'train': 683, 'val': 146, 'test': 146} groups=487
+[2026-11-08T08:25:05+0000] === done stage=prepare ===
+[2026-11-08T08:32:18+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T08:32:23+0000] [data] fruits360: n=7440 classes=62 splits={'train': 3715, 'test': 1931, 'val': 1794} groups=4788
+[2026-11-08T08:32:23+0000] === done stage=prepare ===
+[2026-11-08T08:44:08+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T08:44:08+0000] === done stage=prepare ===
+[2026-11-08T12:06:40+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:06:40+0000] === done stage=prepare ===
+[2026-11-08T12:11:30+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:11:30+0000] === done stage=prepare ===
+[2026-11-08T12:32:32+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:32:32+0000] === done stage=prepare ===
+[2026-11-08T12:51:33+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T12:51:33+0000] === done stage=prepare ===

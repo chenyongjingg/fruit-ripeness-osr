@@ -1,0 +1,31 @@
+curl: (56) OpenSSL SSL_read: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+Terminated
+Terminated
+Terminated
+curl: (56) OpenSSL SSL_read: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+curl: (56) OpenSSL SSL_read: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+DONE
+/root/rio/data/raw:
+total 0
+drwxr-xr-x 2 root root 26 Nov  8 03:09 banana3
+drwxr-xr-x 2 root root 42 Nov  8 03:23 banana4
+drwxr-xr-x 2 root root 47 Nov  8 03:09 field4
+drwxr-xr-x 2 root root 22 Nov  8 03:09 fruit12
+
+/root/rio/data/raw/banana3:
+total 26692
+-rw-r--r-- 1 root root 27328966 Nov  8 03:10 data.parquet
+
+/root/rio/data/raw/banana4:
+total 288960
+-rw-r--r-- 1 root root 234724255 Nov  8 03:25 data.zip
+-rw-r--r-- 1 root root  21733376 Nov  8 03:26 data.zip.new
+
+/root/rio/data/raw/field4:
+total 381776
+-rw-r--r-- 1 root root  35478386 Nov  8 03:10 test.parquet
+-rw-r--r-- 1 root root 355457926 Nov  8 03:20 train.parquet
+
+/root/rio/data/raw/fruit12:
+total 561408
+-rw-r--r-- 1 root root 411143709 Nov  8 03:26 data.zip

@@ -1,0 +1,17 @@
+[2026-11-08T10:52:32+0000] === run.py stage=aggregate enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T10:52:32+0000] [aux] /root/rio/analyze_v2.py
+/root/rio/analyze_v2.py:130: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = g.apply(lambda x: pd.Series({
+/root/rio/analyze_v2.py:176: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = g.apply(lambda x: pd.Series({
+/root/rio/analyze_v2.py:183: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  bv = d.groupby(["view", "hidden_at", "family"], dropna=False).apply(
+/root/rio/analyze_v2.py:292: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  summ = g.apply(lambda x: pd.Series({
+/root/rio/analyze_v2.py:299: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  gran = raw.groupby(["n_levels", "family"], dropna=False).apply(lambda x: pd.Series({
+/root/rio/analyze_v2.py:342: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  out = g.apply(lambda x: pd.Series({
+E2 uncalibrated runs: 1769
+wrote /root/rio/outputs/ANALYSIS_V2.md
+[2026-11-08T10:52:49+0000] === done stage=aggregate ===

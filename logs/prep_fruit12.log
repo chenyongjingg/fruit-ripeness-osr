@@ -1,0 +1,4 @@
+testzip None
+[2026-11-08T03:35:17+0000] === run.py stage=prepare enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T03:35:17+0000] [prepare] fruit12 failed: "labels.csv columns unknown: ['recorte', 'clase', 'fruta', 'estado', 'nivel', 'clase_idx', 'split', 'group_id', 'fuente', 'archivo_original', 'split_origen', 'indice_caja', 'linea', 'recuperada', 'flag_conflicto', 'flag_forma', 'imagen_multiclase', 'flag_outlier_color', 'ancho', 'alto']"
+[2026-11-08T03:35:17+0000] === done stage=prepare ===

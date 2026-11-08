@@ -1,0 +1,5 @@
+[2026-11-08T10:41:57+0000] [E1] finished chunk done=168
+[2026-11-08T10:41:57+0000] [rasp] e1 done in 71s
+[2026-11-08T10:41:57+0000] [E2] raspgrade: open-set cells with fewer than 10 TEST images on either side are skipped (long-tail view; E1 still runs)
+[2026-11-08T10:52:08+0000] [rasp] e2 done in 611s
+[2026-11-08T10:52:08+0000] [rasp] finished

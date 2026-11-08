@@ -1,0 +1,10 @@
+[2026-11-08T03:12:57+0000] === run.py stage=extract enc=['dinov2_s', 'dinov2_b', 'clip_b', 'resnet50'] shots=[1, 5, 10, 50] seeds=[0, 1, 2, 3, 4] ===
+[2026-11-08T03:13:04+0000] [feat] banana3 dinov2_s: 640/1186 (258.6 img/s)
+[2026-11-08T03:13:06+0000] [feat] done banana3 dinov2_s n=1186 dim=384 4.3s -> /root/rio/cache/features/banana3__dinov2_s.npz
+[2026-11-08T03:15:58+0000] [feat] banana3 dinov2_b: 640/1186 (210.2 img/s)
+[2026-11-08T03:16:00+0000] [feat] done banana3 dinov2_b n=1186 dim=768 5.4s -> /root/rio/cache/features/banana3__dinov2_b.npz
+[2026-11-08T03:21:41+0000] [feat] banana3 clip_b: 640/1186 (177.8 img/s)
+[2026-11-08T03:21:43+0000] [feat] done banana3 clip_b n=1186 dim=768 5.9s -> /root/rio/cache/features/banana3__clip_b.npz
+[2026-11-08T03:21:47+0000] [feat] banana3 resnet50: 640/1186 (333.6 img/s)
+[2026-11-08T03:21:49+0000] [feat] done banana3 resnet50 n=1186 dim=2048 4.4s -> /root/rio/cache/features/banana3__resnet50.npz
+[2026-11-08T03:21:49+0000] === done stage=extract ===

@@ -1,0 +1,4 @@
+[2026-11-08T11:15:34+0000] [data] ninepeach: archive split folders are ['train', 'val'] -> not a usable official split, making a group-aware one
+[2026-11-08T11:15:34+0000] [data] ninepeach: n=3493 classes=3 splits={'train': 2446, 'val': 524, 'test': 523} groups=1245
+[2026-11-08T11:15:34+0000] [np] build done in 286s: items=3493 photos=1245 splits={'train': 2446, 'val': 524, 'test': 523} classes={'immature': 1618, 'mature': 1168, 'semi-mature': 707} leak=0
+[2026-11-08T11:15:34+0000] [np] step build finished
