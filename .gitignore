@@ -1,0 +1,34 @@
+# ---- data: never committed (see DATA.md for sources and licences) ----
+data/raw/
+data/processed/*/images/
+data/processed/*/crops/
+data/processed/*/xml/
+cache/
+*.tgz
+*.tar.gz
+*.zip
+
+# ---- model weights ----
+models/
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# ---- python ----
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- credentials: none are stored anywhere, keep it that way ----
+.env
+*.cred
+.kgcred
+.srvpass

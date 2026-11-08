@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, the benchmark protocol or the stored rejection scores, please cite the manuscript and this repository."
+title: "fruit-ripeness-osr: open-set recognition of fruit ripeness"
+abstract: "Code, experiment records (12,728 runs) and stored rejection scores for a multi-dataset benchmark of open-set ripeness recognition across four unknown-class protocols and two score families."
+authors:
+  - family-names: "Chen"
+    given-names: "Yongjin"
+    email: "3337851329@qq.com"
+type: software
+license: MIT
+repository-code: "https://github.com/chenyongjingg/fruit-ripeness-osr"
+keywords:
+  - open-set recognition
+  - fruit ripeness
+  - ordinal classification
+  - out-of-distribution detection
+  - few-shot learning
+date-released: "2026-11-08"
+preferred-citation:
+  type: article
+  title: "Open-Set Recognition of Fruit Ripeness: A Multi-Dataset Benchmark and Empirical Analysis of Rejection Protocols, Scoring Families, and Few-Shot Boundaries"
+  authors:
+    - family-names: "Chen"
+      given-names: "Yongjin"
+  journal: "Horticulturae"
+  note: "Manuscript in preparation; citation details will be updated on acceptance."

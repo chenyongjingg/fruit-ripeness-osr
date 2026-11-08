@@ -1,0 +1,18 @@
+# Versions measured on the machine that produced results/ (2026-11-08).
+# Python 3.10.12, single NVIDIA RTX 4090 (24 GB).
+# A full `pip freeze` is in ENVIRONMENT_snapshot.txt at the repository root.
+torch==2.14.1
+torchvision==0.29.2
+transformers==5.20.2
+timm==1.0.31
+open_clip_torch==4.2.1
+peft==0.21.2
+accelerate==1.15.0
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+pillow==12.3.0
+matplotlib==3.10.9
+pyarrow==25.0.1
+tqdm==4.70.1
