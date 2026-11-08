@@ -1,0 +1,9 @@
+# Byte-exact checkout, everywhere.
+#
+# Every result record carries a SHA-256 of the data it ran on, and each card.json
+# stores a hash over its meta.csv. Git's default end-of-line conversion on Windows
+# rewrites LF as CRLF on checkout, which changes those bytes and makes the
+# card-vs-live-data assertion fail on a fresh clone while the files are, logically,
+# identical. `-text` disables all EOL conversion and content sniffing, so a clone is
+# a byte copy of what was committed, on every platform.
+* -text

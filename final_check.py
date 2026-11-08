@@ -14,11 +14,23 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from rio.common import OUT, RESULTS, PROC, RAW, sha256_file
 
 RES = []
+SKIPPED = []
 
 
 def ck(name, ok, detail=""):
     RES.append((name, bool(ok), detail))
     print(("PASS %-46s %s" % (name, detail)) if ok else ("FAIL %-46s %s" % (name, detail)))
+
+
+def skip(name, why):
+    """A check whose input is absent from this checkout, not a claim that passed.
+
+    Used only where the object under test is deliberately not part of the repository
+    (the raw image archives). A skip is printed and counted separately, never folded
+    into the pass count.
+    """
+    SKIPPED.append((name, why))
+    print("SKIP %-46s %s" % (name, why))
 
 
 def read(p):
@@ -40,8 +52,14 @@ def main():
     raw_sets = sorted({p.parent.name for p in RAW.glob("*/*")
                        if p.name in ("data.zip", "data.parquet", "train.parquet")})
     unprepared = [d for d in raw_sets if not (PROC / d / "card.json").exists()]
-    ck("every raw dataset prepared", bool(raw_sets) and not unprepared,
-       "raw=%s unprepared=%s" % (raw_sets, unprepared))
+    if raw_sets:
+        ck("every raw dataset prepared", not unprepared,
+           "raw=%s unprepared=%s" % (raw_sets, unprepared))
+    else:
+        # No archive in this checkout: the repository ships cards and split membership,
+        # not the images. The property is unassertable here rather than true.
+        skip("every raw dataset prepared",
+             "no archives under data/raw (download them first, see DATA.md)")
 
     mc = OUT / "master.csv"
     if not mc.exists():
@@ -471,6 +489,10 @@ def finish():
     for name, ok, d in RES:
         if not ok:
             print("  - %s  %s" % (name, d))
+    if SKIPPED:
+        print("SKIPPED: %d (input not in this checkout)" % len(SKIPPED))
+        for name, why in SKIPPED:
+            print("  ~ %s  %s" % (name, why))
     return 0 if n == len(RES) else 1
 
 
