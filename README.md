@@ -36,8 +36,13 @@ On two-known-class heads MSP and Energy are **identical, bit for bit** (114/114 
 
 Three results constrain the story and are not hidden in the paper:
 
-* on the 5-grade conveyor-belt set (`raspgrade`) **every arm is near chance** (0.47–0.62);
-* on the orchard set (`ninepeach`) the **prob family is below chance** (0.30–0.33);
+* on the 5-grade conveyor-belt set (`raspgrade`) the most levels do **not** produce the most
+  rejection: every cell mean sits between 0.49 and 0.58, i.e. near chance, and the arm means
+  range only 0.493–0.555 (`outputs/T12b_family_flip_by_view.csv`);
+* on the orchard set (`ninepeach`) the **prob family falls below chance** at both the first
+  (0.302) and the terminal (0.334) grade, while the distance family holds 0.814 and 0.677 —
+  the family ordering reverses with the hidden position in a way no "one family is weaker"
+  summary captures;
 * 16 runs collapse to a single predicted class, and 4 cells carry fewer than 30 test images;
   both are listed explicitly (`outputs/T15_collapsed.csv`, `outputs/T16_small_n.csv`) instead
   of being silently averaged.
