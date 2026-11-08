@@ -1,0 +1,30 @@
+name: gate
+
+# The repository's central claim is that every number can be re-derived from the
+# stored evidence. This job is that claim, executed on someone else's machine: it
+# installs only the analysis-side dependencies (no torch, no GPU, no datasets) and
+# runs the two checks that would fail if the evidence and the tables disagreed.
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  final-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install analysis dependencies
+        run: python -m pip install --quiet numpy==2.2.6 pandas==2.3.3 scipy==1.15.3 tabulate==0.10.0
+
+      - name: Second, independent implementation of AUROC / FPR@95 / known accuracy
+        run: python verify_indep.py
+
+      - name: Acceptance checks
+        run: python final_check.py
