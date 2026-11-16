@@ -1,16 +1,27 @@
 # fruit-ripeness-osr
 
-Code, result records and aggregated tables for **“Open-Set Recognition of Fruit Ripeness: A
-Multi-Dataset Benchmark and Empirical Analysis of Rejection Protocols, Scoring Families, and
-Few-Shot Boundaries”** (manuscript in preparation, MDPI *Horticulturae*).
+Code, experiment records and stored rejection scores for the manuscript:
 
-The question the repository answers with code and stored evidence: **when a ripeness grader
-meets a grade it was never trained on, do training-free rejection scores actually fire?** Four
-unknown-class protocols are evaluated across 8 open-set views (10 closed-set views), four
-frozen backbones, four training-free scores, and five seeds.
+**Open-Set Recognition for Postharvest Fruit Ripeness Grading: A Ten-Dataset Technical Benchmark of Rejection Protocols and Deployment Rules**
 
-Everything here is the state that produced the tables: **12,728 experiment records**, each with
-its config, its metrics and the SHA-256 of the data it ran on.
+Yongjin Chen, Chenrui Yang, Ziying Xue, Xiyuan Wang, Songze Zhu
+
+Prepared for submission to *Frontiers in Plant Science*, section **Technical Advances in Plant Science**, Research Topic **“AI-Driven Innovations in Plant Phenotyping and Genomics”** (2026).
+
+The question the repository answers with code and stored evidence: **when a postharvest ripeness grader meets a grade it was never trained on, do training-free rejection scores actually fire?** The paper treats ripeness as an image-derived plant phenotype and measures refusal across six arms, ten public datasets, four frozen backbones, four training-free scores and five seeds. It is a technical benchmark and protocol, not a new classifier.
+
+Everything here is the state that produced the tables: **12,728 experiment records**, **3,264 sealed score arrays**, each with its config, its metrics and the SHA-256 of the data it ran on, plus a 57-assertion acceptance suite and an independently written metric implementation.
+
+---
+
+## Submission metadata
+
+- **Journal:** Frontiers in Plant Science
+- **Section:** Technical Advances in Plant Science
+- **Research Topic:** AI-Driven Innovations in Plant Phenotyping and Genomics
+- **Article type:** Original Research
+- **Corresponding author:** Songze Zhu, `18513826980@163.com`
+- **Status:** prepared for submission (2026)
 
 ---
 
@@ -29,19 +40,19 @@ Open-set AUROC, per arm, averaged over the cells of that arm (both score familie
 | `P3_foreign` | another dataset's fruit | **0.982** | 0.798 |
 
 The one robust statement about score families is directional and narrow: **at the terminal
-grade the distance family wins in 7 of 7 views**; at the first grade it is 4 : 4 and at an
-interior grade 4 : 3, i.e. dataset-dependent (`outputs/T12b_family_flip_by_view.csv`).
+grade the distance family wins in 7 of 7 views**; at the first grade it wins 4 of 8 and at an
+interior grade 3 of 7, i.e. dataset-dependent (`outputs/T12b_family_flip_by_view.csv`).
 On two-known-class heads MSP and Energy are **identical, bit for bit** (114/114 cells), so
 “four scores” is really “two families” (`outputs/T13_score_corr.csv`).
 
 Three results constrain the story and are not hidden in the paper:
 
 * on the 5-grade conveyor-belt set (`raspgrade`) the most levels do **not** produce the most
-  rejection: every cell mean sits between 0.49 and 0.58, i.e. near chance, and the arm means
-  range only 0.493–0.555 (`outputs/T12b_family_flip_by_view.csv`);
+  rejection: every family and encoder lies between **0.487 and 0.580**, i.e. near chance, and
+  the arm means range only 0.493–0.555 (`outputs/T12b_family_flip_by_view.csv`);
 * on the orchard set (`ninepeach`) the **prob family falls below chance** at both the first
   (0.302) and the terminal (0.334) grade, while the distance family holds 0.814 and 0.677 —
-  the family ordering reverses with the hidden position in a way no "one family is weaker"
+  the family ordering reverses with the hidden position in a way no “one family is weaker”
   summary captures;
 * 16 runs collapse to a single predicted class, and 4 cells carry fewer than 30 test images;
   both are listed explicitly (`outputs/T15_collapsed.csv`, `outputs/T16_small_n.csv`) instead
@@ -110,6 +121,8 @@ logs/                  the run logs, including the passing final_check
 probe/                 the small audit scripts behind the checks quoted in the paper
 docs: PLAN_VS_DATA.md  (zh) measured-vs-planned ledger; README_SERVER.md (en) operations;
       HANDOVER_ZH.md   (zh) full operating notes and known traps
+SUBMISSION.md          title, authors, journal/section/topic and submission status
+CITATION.cff / .bib    citation metadata for the software and the manuscript
 ```
 
 Two things about the tree that will look odd and are not damage. `probe/` and
@@ -135,15 +148,21 @@ is why those names look like `E2__banana3?-foreign?fruit12__…`. Every reader g
 ## Data and licences
 
 Datasets are **not** redistributed here — only their measured fingerprints (`card.json`) and
-the exact split membership (`meta.csv`). Sources, counts and licences are in
-[`DATA.md`](DATA.md). Note that `FBK-TeV/RaspGrade` is **CC-BY-NC-4.0** (non-commercial); the
-code in this repository is MIT, but that licence does not extend to the data.
+the exact split membership (`meta.csv`). Sources, counts, direct links and licences are in
+[`DATA.md`](DATA.md). Key points:
+
+* `mango_khir` is Kaggle **`srabon00/mango-ripening-stage-classification`** (the slug the
+  manuscript cites).
+* `FBK-TeV/RaspGrade` is **CC-BY-NC-4.0** (non-commercial); the code is MIT, but that licence
+  does not extend to the data.
 
 ## Citation
 
-See `CITATION.cff`. If you use the benchmark or the stored score arrays, please cite the
-manuscript (details to be filled in on acceptance) and this repository.
+See `CITATION.cff` and `CITATION.bib`. If you use the benchmark or the stored score arrays,
+please cite the manuscript (details to be completed on acceptance) and this repository.
 
 ## Contact
 
 Yongjin Chen — `3337851329@qq.com`
+
+Paper correspondence — Songze Zhu — `18513826980@163.com`

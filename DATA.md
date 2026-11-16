@@ -1,5 +1,9 @@
 # Datasets: sources, counts and licences
 
+Datasets used in *Open-Set Recognition for Postharvest Fruit Ripeness Grading: A Ten-Dataset
+Technical Benchmark of Rejection Protocols and Deployment Rules* (Frontiers in Plant Science,
+Technical Advances in Plant Science, 2026; under review).
+
 **No image data is redistributed in this repository.** What is included is (a) a measured
 fingerprint of every dataset — `data/processed/<name>/card.json` — and (b) the exact split
 membership — `data/processed/<name>/meta.csv` — so any reported number can be traced to the
@@ -24,6 +28,21 @@ exists, and the unit of analysis.
 | `f360rot` | Kaggle `moltean/fruits` + its only rotten class | 8,090 | 61 classes known, `Apple Rotten 1` unknown | rotten class *in situ* |
 | `raspgrade` | HF `FBK-TeV/RaspGrade` (also Zenodo 17698589) | 5,043 berry crops from 200 conveyor images | grade1 … grade5 | the only 5-level source |
 | `ninepeach` | figshare record 27125373 `Peach Maturity Dataset` | 3,493 crops from 1,245 orchard photos | immature / semi-mature / mature | orchard 3-grade |
+
+## Direct links
+
+- banana3 — https://huggingface.co/datasets/TCleo/3-banana-maturity
+- banana4 — https://huggingface.co/datasets/Sapek007/banana-ripeness
+- fruit12 — https://huggingface.co/datasets/Carlosmg23/fruit-ripeness-12clases
+- field4 — https://huggingface.co/datasets/darthraider/fruit-ripeness-detection-dataset
+- mango_khir — https://www.kaggle.com/datasets/srabon00/mango-ripening-stage-classification
+- fruits360 — https://www.kaggle.com/datasets/moltean/fruits
+- ffr — https://www.kaggle.com/datasets/sriramr/fruits-fresh-and-rotten-for-classification
+- f360rot — derived from https://www.kaggle.com/datasets/moltean/fruits by adding the single
+  folder `Apple Rotten 1`; no other folder changes.
+- raspgrade — https://huggingface.co/datasets/FBK-TeV/RaspGrade and
+  https://zenodo.org/records/17698589 (DOI: 10.5281/zenodo.17698589)
+- ninepeach — https://doi.org/10.6084/m9.figshare.27125373 (figshare record 27125373)
 
 ## Licences
 

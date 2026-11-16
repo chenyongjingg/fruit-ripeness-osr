@@ -1,26 +1,52 @@
 cff-version: 1.2.0
 message: "If you use this code, the benchmark protocol or the stored rejection scores, please cite the manuscript and this repository."
-title: "fruit-ripeness-osr: open-set recognition of fruit ripeness"
-abstract: "Code, experiment records (12,728 runs) and stored rejection scores for a multi-dataset benchmark of open-set ripeness recognition across four unknown-class protocols and two score families."
-authors:
-  - family-names: "Chen"
-    given-names: "Yongjin"
-    email: "3337851329@qq.com"
+title: "fruit-ripeness-osr: open-set recognition for postharvest fruit ripeness grading"
+abstract: "Code, experiment records (12,728 runs) and stored rejection scores for a ten-dataset benchmark of open-set postharvest ripeness phenotyping across six rejection arms and two score families."
+version: "1.1.0"
 type: software
 license: MIT
 repository-code: "https://github.com/chenyongjingg/fruit-ripeness-osr"
+date-released: "2026-11-16"
 keywords:
   - open-set recognition
-  - fruit ripeness
-  - ordinal classification
+  - postharvest fruit grading
+  - plant phenotyping
   - out-of-distribution detection
+  - foundation models
+  - distribution shift
   - few-shot learning
-date-released: "2026-11-08"
+authors:
+  - family-names: Chen
+    given-names: Yongjin
+    email: 3337851329@qq.com
+    affiliation: "People's Public Security University of China, Beijing, China"
+  - family-names: Yang
+    given-names: Chenrui
+    affiliation: "People's Public Security University of China, Beijing, China"
+  - family-names: Xue
+    given-names: Ziying
+    affiliation: "People's Public Security University of China, Beijing, China"
+  - family-names: Wang
+    given-names: Xiyuan
+    affiliation: "People's Public Security University of China, Beijing, China"
+  - family-names: Zhu
+    given-names: Songze
+    email: 18513826980@163.com
+    affiliation: "People's Public Security University of China, Beijing, China"
 preferred-citation:
   type: article
-  title: "Open-Set Recognition of Fruit Ripeness: A Multi-Dataset Benchmark and Empirical Analysis of Rejection Protocols, Scoring Families, and Few-Shot Boundaries"
+  title: "Open-Set Recognition for Postharvest Fruit Ripeness Grading: A Ten-Dataset Technical Benchmark of Rejection Protocols and Deployment Rules"
   authors:
-    - family-names: "Chen"
-      given-names: "Yongjin"
-  journal: "Horticulturae"
-  note: "Manuscript in preparation; citation details will be updated on acceptance."
+    - family-names: Chen
+      given-names: Yongjin
+    - family-names: Yang
+      given-names: Chenrui
+    - family-names: Xue
+      given-names: Ziying
+    - family-names: Wang
+      given-names: Xiyuan
+    - family-names: Zhu
+      given-names: Songze
+  journal: "Frontiers in Plant Science"
+  year: 2026
+  note: "Prepared for submission to Frontiers in Plant Science (Technical Advances in Plant Science); citation details will be updated on acceptance."
